@@ -1,0 +1,5391 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <title>DCDIUM</title>
+    <meta content="" name="description">
+    
+    <meta content="" name="keywords">
+    
+    <!-- Favicons -->
+    <link href="images/dc_logo.png" rel="icon">
+    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+    
+    <!-- Google Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+        rel="stylesheet">
+    
+    <!-- Vendor CSS Files -->
+    <link href="css/aos.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap-icons.css" rel="stylesheet">
+    <link href="css/glightbox.min.css" rel="stylesheet">
+    <link href="css/remixicon.css" rel="stylesheet">
+    <link href="css/swiper-bundle.min.css" rel="stylesheet">
+    
+    <!-- <script src="https://dcdium.hopto.org/packs/js/sdk.js" defer="" async=""></script><script>
+      var myModal = document.getElementById('myModal')
+      
+    var myInput = document.getElementById('myInput')
+    console.log(myInput);
+    
+    myModal.addEventListener('shown.bs.modal', function () {
+      myInput.focus()
+    })
+        </script> -->
+    
+    
+    <!-- Template Main CSS File -->
+
+     <link href="css/style.css" rel="stylesheet">
+    <!-- <link rel="preload" as="font" type="font/woff2"
+        href="https://vironit.com/wp-content/themes/evolve/fonts/open-sans-v17-latin-600.woff2" crossorigin="">
+    <link rel="preload" as="font" type="font/woff2"
+        href="https://vironit.com/wp-content/themes/evolve/fonts/open-sans-v17-latin-700.woff2" crossorigin="">
+    <link rel="preload" as="font" type="font/woff2"
+        href="https://vironit.com/wp-content/themes/evolve/fonts/open-sans-v17-latin-regular.woff2" crossorigin=""> --> -->
+
+    <!-- <script async="" src="js/tag.js"></script>
+    <script async="" src="js/gtm.js"></script>
+    <script type="application/ld+json">
+    {"@context":"https://schema.org","@type":"Organization","name":"VironIT","email":"info@vironit.com","numberOfEmployees":"60","address":{"@type":"PostalAddress","addressLocality":"Wilmington, USA","postalCode":"19801","streetAddress":"919 North market St, suite 950"},"url":"https://vironit.com","logo":"https://vironit.com/wp-content/uploads/2015/10/logo.png","contactPoint":[{"availableLanguage":["English"],"@type":"ContactPoint","telephone":"+18774103947","contactType":"customer service"}],"sameAs":["https://www.facebook.com/VironIT2004","https://www.instagram.com/vironit_dev","https://twitter.com/vironit","https://www.linkedin.com/company/vironit"]}
+    </script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+    </script>
+     Google Tag Manager -->
+    <!-- <script>(function (w, d, s, l, i) {
+            w[l] = w[l] || []; w[l].push({
+                'gtm.start':
+                    new Date().getTime(), event: 'gtm.js'
+            }); var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                    'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-P7PLSCDL');</script> --> 
+    <!-- End Google Tag Manager -->
+    
+    
+    <!-- Yandex.Metrika counter -->
+    <!-- <script type="text/javascript">
+        (function (m, e, t, r, i, k, a) {
+            m[i] = m[i] || function () { (m[i].a = m[i].a || []).push(arguments) };
+            m[i].l = 1 * new Date();
+            for (var j = 0; j < document.scripts.length; j++) { if (document.scripts[j].src === r) { return; } }
+            k = e.createElement(t), a = e.getElementsByTagName(t)[0], k.async = 1, k.src = r, a.parentNode.insertBefore(k, a)
+        })
+            (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+        ym(21163447, "init", {
+            clickmap: true,
+            trackLinks: true,
+            accurateTrackBounce: true,
+            webvisor: true
+        });
+    </script>
+    <noscript>
+        <div><img src="https://mc.yandex.ru/watch/21163447" style="position:absolute; left:-9999px;" alt="" /></div>
+    </noscript> -->
+    <style>
+        @font-face {
+            font-family: Open Sans;
+            font-style: normal;
+            font-weight: 400;
+            src: local("Open Sans Regular"), local("OpenSans-Regular"), url(fonts/open-sans-v17-latin-regular.woff2) format("woff2")
+        }
+    
+        @font-face {
+            font-family: Open Sans;
+            font-style: normal;
+            font-weight: 600;
+            src: local("Open Sans SemiBold"), local("OpenSans-SemiBold"), url(fonts/open-sans-v17-latin-600.woff2) format("woff2")
+        }
+    
+        @font-face {
+            font-family: Open Sans;
+            font-style: normal;
+            font-weight: 700;
+            src: local("Open Sans Bold"), local("OpenSans-Bold"), url(fonts/open-sans-v17-latin-700.woff2) format("woff2")
+        }
+    
+        .d-flex {
+            display: flex !important
+        }
+    
+        .d-none {
+            display: none !important
+        }
+    
+        .w-100 {
+            width: 100%
+        }
+    
+        .container {
+            max-width: 1650px;
+            margin: auto;
+            padding: 0 5%;
+            width: 100%
+        }
+    
+        .section {
+            padding-top: 40px;
+            padding-bottom: 40px
+        }
+    
+        @media (min-width: 320px) {
+            .section {
+                padding-top: calc(5.08475vw + 23.72881px)
+            }
+        }
+    
+        @media (min-width: 1500px) {
+            .section {
+                padding-top: 100px
+            }
+        }
+    
+        @media (min-width: 320px) {
+            .section {
+                padding-bottom: calc(5.08475vw + 23.72881px)
+            }
+        }
+    
+        @media (min-width: 1500px) {
+            .section {
+                padding-bottom: 100px
+            }
+        }
+    
+        .section-main__info {
+            text-align: center;
+            margin-bottom: 24px
+        }
+    
+        @media (min-width: 320px) {
+            .section-main__info {
+                margin-bottom: calc(2.20339vw + 16.94915px)
+            }
+        }
+    
+        @media (min-width: 1500px) {
+            .section-main__info {
+                margin-bottom: 50px
+            }
+        }
+    
+        .section-main__title {
+            font-weight: 700;
+            line-height: 1.3;
+            font-size: 24px;
+            margin-bottom: 16px
+        }
+    
+        @media (min-width: 320px) {
+            .section-main__title {
+                font-size: calc(1.18644vw + 20.20339px)
+            }
+        }
+    
+        @media (min-width: 1500px) {
+            .section-main__title {
+                font-size: 38px
+            }
+        }
+    
+        @media (min-width: 320px) {
+            .section-main__title {
+                margin-bottom: calc(1.35593vw + 11.66102px)
+            }
+        }
+    
+        @media (min-width: 1500px) {
+            .section-main__title {
+                margin-bottom: 32px
+            }
+        }
+    
+        .section-main__content {
+            font-weight: 400;
+            width: 200px;
+            margin: auto;
+            line-height: 1.4;
+            font-size: 16px;
+            color: #828282
+        }
+    
+        @media (min-width: 320px) {
+            .section-main__content {
+                width: calc(69.49153vw - 22.37288px)
+            }
+        }
+    
+        @media (min-width: 1500px) {
+            .section-main__content {
+                width: 1020px
+            }
+        }
+    
+        @media (min-width: 320px) {
+            .section-main__content {
+                font-size: calc(.33898vw + 14.91525px)
+            }
+        }
+    
+        @media (min-width: 1500px) {
+            .section-main__content {
+                font-size: 20px
+            }
+        }
+    
+        .button,
+        .da-slide .da-link,
+        button:not(.ico-search):not(.slick-arrow),
+        input#submit,
+        input[type=submit] {
+            color: #fff;
+            font-size: 13px;
+            padding: 5px 40px;
+            cursor: pointer;
+            background: #11a173;
+            border: 1px solid #11a173;
+            font-weight: 700
+        }
+    
+        .button:hover,
+        button:hover:not(.ico-search):not(.slick-arrow):not(.owl-dot):not(.owl-next):not(.owl-prev),
+        input#submit:hover {
+            background: #21b183;
+            border: 1px solid #21b183
+        }
+    
+        ::-webkit-input-placeholder {
+            color: #4e4f51
+        }
+    
+        :-moz-placeholder,
+        ::-moz-placeholder {
+            color: #4e4f51
+        }
+    
+        :-ms-input-placeholder {
+            color: #4e4f51
+        }
+    
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            outline: 0
+        }
+    
+        html {
+            overflow-x: hidden
+        }
+    
+        body {
+            font-family: Open Sans, sans-serif;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 1.3;
+            color: #141414;
+            text-rendering: optimizeLegibility;
+            min-width: 320px
+        }
+    
+        a {
+            text-decoration: none
+        }
+    
+        button {
+            cursor: pointer;
+            border: none;
+            background: 0 0
+        }
+    
+        ol,
+        ul {
+            list-style: none
+        }
+    
+        .header {
+            position: -webkit-sticky;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            font-family: Open Sans, sans-serif;
+            background: #fff;
+            display: flex;
+            align-items: center;
+            box-shadow: 0 0 9px rgb(0 0 0 / 18%);
+            min-height: 70px
+        }
+    
+        .edge .header,
+        .ie .header {
+            position: static;
+            width: 100%
+        }
+    
+        .edge .header__menu,
+        .ie .header__menu {
+            overflow: visible
+        }
+    
+        .edge .header.fixed-header,
+        .ie .header.fixed-header {
+            position: fixed
+        }
+    
+        .header .container {
+            display: flex;
+            align-items: center;
+            height: 70px
+        }
+    
+        .header__logo {
+            margin: auto
+        }
+    
+        .header__logo svg {
+            width: 160px;
+            height: 55px
+        }
+    
+        @media screen and (min-width: 1024px) {
+            .header__logo {
+                margin: auto 0
+            }
+        }
+    
+        .header__burger {
+            width: 25px;
+            height: 26px;
+            cursor: pointer
+        }
+    
+        @media screen and (min-width: 1024px) {
+            .header__burger {
+                display: none
+            }
+        }
+    
+        .header__close {
+            width: 18px;
+            height: 18px;
+            position: absolute;
+            right: 10px;
+            top: 10px;
+            transition: opacity .2s
+        }
+    
+        .header__close:hover {
+            opacity: .6
+        }
+    
+        @media screen and (min-width: 1024px) {
+            .header__close {
+                display: none
+            }
+        }
+    
+        .header__menu {
+            display: none;
+            position: fixed;
+            height: 100%;
+            max-height: 100vh;
+            width: 300px;
+            top: 0;
+            left: 0;
+            padding: 50px 20px 30px;
+            background: #fff;
+            overflow: auto
+        }
+    
+        @media screen and (min-width: 1024px) {
+            .header__menu {
+                display: flex;
+                align-items: center;
+                position: relative;
+                height: auto;
+                width: 100%;
+                padding: 0;
+                overflow: unset;
+                background: 0 0
+            }
+        }
+    
+        .header__menu.header__menu--open {
+            display: block;
+            -webkit-animation: menuSlideLeft .3s;
+            animation: menuSlideLeft .3s
+        }
+    
+        .header__btn {
+            display: block;
+            background: #078d64;
+            border: 3px solid #0cb17f;
+            line-height: 1;
+            font-weight: 600;
+            color: #fff;
+            text-transform: uppercase;
+            text-align: center;
+            padding: 10px 20px;
+            font-size: 16px;
+            transition: background .2s
+        }
+    
+        .header__btn:hover {
+            background: #0cb17f
+        }
+    
+        @media screen and (min-width: 1024px) {
+            .header__btn {
+                display: inline-block
+            }
+        }
+    
+        .header__list {
+            margin-bottom: 30px
+        }
+    
+        @media screen and (min-width: 1024px) {
+            .header__list {
+                display: flex;
+                align-items: center;
+                margin: 0 auto
+            }
+        }
+    
+        .header__list a {
+            color: inherit
+        }
+    
+        .header__list-item {
+            position: relative;
+            font-size: 16px;
+            font-weight: 800;
+            display: flex;
+            flex-direction: column;
+            text-transform: uppercase;
+            margin-bottom: 16px;
+            color: #141414;
+            transition: color .2s;
+            line-height: 1.2;
+            cursor: pointer
+        }
+    
+        @media screen and (min-width: 1024px) {
+            .header__list-item {
+                margin-bottom: 0;
+                padding: 32px 0;
+                font-size: 12px;
+                margin-right: 16px
+            }
+    
+            .header__list-item:hover .header__list--submenu {
+                display: block
+            }
+    
+            .header__list-item:hover:after {
+                transform: rotate(135deg) translate(-1px, 1px)
+            }
+        }
+    
+        @media screen and (min-width: 1024px) and (min-width: 1024px) {
+            .header__list-item {
+                font-size: calc(.84034vw + 3.39496px)
+            }
+        }
+    
+        @media screen and (min-width: 1024px) and (min-width: 1500px) {
+            .header__list-item {
+                font-size: 16px
+            }
+        }
+    
+        @media screen and (min-width: 1024px) and (min-width: 1024px) {
+            .header__list-item {
+                margin-right: 17px
+            }
+        }
+    
+        @media screen and (min-width: 1024px) and (min-width: 1500px) {
+            .header__list-item {
+                margin-right: 30px
+            }
+        }
+    
+        .header__list-item:hover {
+            color: #65af87
+        }
+    
+        .header__list-item--hasSub {
+            margin-right: 0
+        }
+    
+        .header__list-item--hasSub:after {
+            content: "";
+            display: inline-block;
+            flex: none;
+            position: absolute;
+            right: 10px;
+            top: 2px;
+            width: 10px;
+            height: 10px;
+            margin-left: auto;
+            border-bottom: 1px solid;
+            border-left: 1px solid;
+            transform: rotate(-45deg);
+            transition: transform .2s
+        }
+    
+        @media screen and (min-width: 1024px) {
+            .header__list-item--hasSub:after {
+                right: -14px;
+                width: 6px;
+                height: 6px;
+                top: 50%;
+                transform: rotate(-45deg) translate(2px, -4px)
+            }
+        }
+    
+        @media screen and (min-width: 1024px) and (max-width: 1280px) {
+            .header__list-item--hasSub:after {
+                width: 4px;
+                height: 4px
+            }
+        }
+    
+        @media screen and (min-width: 1024px) and (min-width: 1024px) {
+            .header__list-item--hasSub:after {
+                right: 0;
+            }
+        }
+    
+        @media (min-width: 1024px) {
+            .header__list-item--hasSub {
+                margin-right: 17px;
+                padding-right: 17px;
+            }
+        }
+    
+        @media (max-width: 1280px) {
+            .header__list-item--hasSub {
+                padding-right: 10px;
+            }
+        }
+    
+        @media (min-width: 1500px) {
+            .header__list-item--hasSub {
+                margin-right: 25px
+            }
+        }
+    
+        .header__list-item--submenu {
+            text-transform: capitalize;
+            font-size: 14px;
+            margin-bottom: 12px;
+            color: #141414;
+            transition: color .2s, transform .3s
+        }
+    
+        .header__list-item--submenu:hover {
+            color: #65af87;
+            transform: translateX(6px);
+            display: block;
+        }
+    
+        .header__list--submenu {
+            display: none;
+            list-style: none;
+            padding-top: 14px;
+            padding-left: 16px;
+            overflow: hidden;
+            animation: menuSlideDown 1s;
+            z-index: 999
+        }
+    
+        @media screen and (min-width: 1024px) {
+            .header__list-item--submenu {
+                font-size: 14px
+            }
+        }
+    
+        @media screen and (min-width: 1024px) and (min-width: 1024px) {
+            .header__list-item--submenu {
+                font-size: calc(.63025vw + 7.54622px)
+            }
+        }
+    
+        @media screen and (min-width: 1024px) and (min-width: 1500px) {
+            .header__list-item--submenu {
+                font-size: 17px
+            }
+        }
+    
+        @media screen and (min-width: 1024px) {
+            .header__list--submenu {
+                position: absolute;
+                background: #fff;
+                top: 100%;
+                border-radius: 8px;
+                min-width: 240px;
+                padding: 12px;
+                box-shadow: 0 0 2px 0 rgba(0, 0, 0, .1)
+            }
+    
+            .edge .header__list--submenu,
+            .ie .header__list--submenu {
+                top: 74px
+            }
+        }
+    
+        @media screen and (min-width: 1024px) and (min-width: 1024px) {
+            .header__list--submenu {
+                padding: calc(2.94118vw - 18.11765px)
+            }
+        }
+    
+        @media screen and (min-width: 1024px) and (min-width: 1500px) {
+            .header__list--submenu {
+                padding: 26px
+            }
+        }
+    
+        @media screen and (max-width: 1023px) {
+            .header__list-item--open .header__list--submenu {
+                display: block
+            }
+    
+            .header__list-item--open:after {
+                transform: rotate(135deg) translate(4px, -3px)
+            }
+        }
+    
+        .page-top {
+            background: #1e1e1f;
+            font-family: Open Sans, sans-serif
+        }
+    
+        .page-top .container {
+            display: flex;
+            align-items: center;
+            justify-content: flex-end
+        }
+    
+        .page-top a {
+            font-size: 14px;
+            font-weight: 600;
+            display: flex;
+            align-items: center;
+            color: #0eb27f;
+            transition: color .2s;
+            line-height: 40px;
+            margin-left: 24px
+        }
+    
+        .page-top a:hover {
+            color: #fff
+        }
+    
+        .page-top .top-phone {
+            width: 140px;
+            min-width: 140px
+        }
+    
+        .page-top .top-email {
+            width: 150px;
+            min-width: 150px
+        }
+    
+        @keyframes menuSlideDown {
+            0% {
+                opacity: 0;
+                max-height: 50px
+            }
+    
+            1% {
+                transform: translateY(-20px);
+                max-height: 50px;
+                opacity: 0
+            }
+    
+            50% {
+                transform: translateY(0);
+                opacity: 1
+            }
+    
+            to {
+                max-height: 1000px;
+                transform: translateY(0)
+            }
+        }
+    
+        @-webkit-keyframes menuSlideLeft {
+            0% {
+                display: none;
+                opacity: 0
+            }
+    
+            1% {
+                display: block;
+                transform: translateX(-100%);
+                opacity: 0
+            }
+    
+            75% {
+                opacity: 1
+            }
+    
+            to {
+                transform: translateY(0)
+            }
+        }
+    
+        @keyframes menuSlideLeft {
+            0% {
+                display: none;
+                opacity: 0
+            }
+    
+            1% {
+                display: block;
+                transform: translateX(-100%);
+                opacity: 0
+            }
+    
+            75% {
+                opacity: 1
+            }
+    
+            to {
+                transform: translateY(0)
+            }
+        }
+    
+        .cookie_wrapper {
+            width: 100%;
+            position: fixed;
+            bottom: 0;
+            display: none;
+            justify-content: center;
+            background: rgb(0 0 0 / 80%);
+        }
+    
+        .cookie_notice {
+            display: flex;
+            color: white;
+            max-width: 1200px;
+            padding: 60px 20px;
+            border-radius: 12px 12px 0 0;
+            align-items: center;
+            flex-direction: column;
+        }
+    
+        .cookie_btn {
+            height: 40px;
+            display: flex;
+            width: fit-content;
+            margin: auto;
+            background: #11a173;
+            align-items: center;
+            padding: 0 65px;
+            color: white;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    
+        .cookie_btn:hover {
+            background: #21b183;
+        }
+    
+        .cookie_notice--message {
+            margin-bottom: 14px;
+            text-align: center;
+        }
+    
+    
+    
+    
+        .edge .main,
+        .ie .main {
+            background: #1e1e1f url(images/main-bg.jpg) no-repeat 50% 50%;
+            background-size: cover
+        }
+    
+        .edge .contactUs.section,
+        .ie .contactUs.section {
+            background: #1e1e1f url(images/contact-us-section.jpg) no-repeat 50% 50%;
+            background-size: cover
+        }
+    
+        .main {
+            height: 100%;
+            min-height: calc(100vh - 95px);
+            position: relative;
+            background: #1e1e1f;
+            padding: 40px 0
+        }
+    
+        @media screen and (min-width:1024px) {
+            .main {
+                display: flex;
+                align-items: center
+            }
+        }
+    
+        .main__bg {
+            display: none
+        }
+    
+        @supports ((-o-object-fit:cover) or (object-fit:cover)) {
+            .main__bg {
+                display: block;
+                position: absolute;
+                width: 100%;
+                height: 100%;
+                top: 0;
+                left: 0;
+                -o-object-fit: cover;
+                object-fit: cover;
+                -o-object-position: center;
+                object-position: center;
+                z-index: 1
+            }
+        }
+    
+        .main .container {
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            z-index: 2
+        }
+    
+        @media screen and (min-width:1024px) {
+            .main .container {
+                flex-direction: row;
+                justify-content: space-between
+            }
+        }
+    
+        .main__info {
+            width: 100%;
+            color: #fff;
+            text-align: center;
+            margin-bottom: 30px
+        }
+    
+        @media screen and (min-width:1024px) {
+            .main__info {
+                text-align: left;
+                width: 400px
+            }
+        }
+    
+        @media screen and (min-width:1024px) and (min-width:1024px) {
+            .main__info {
+                width: calc(63.02521vw - 245.37815px)
+            }
+        }
+    
+        @media screen and (min-width:1024px) and (min-width:1500px) {
+            .main__info {
+                width: 700px
+            }
+        }
+    
+        .main__title {
+            font-weight: 700;
+            font-size: 24px;
+            margin-bottom: 16px;
+            line-height: 1.2;
+            width: 100%
+        }
+    
+        @media (min-width:320px) {
+            .main__title {
+                font-size: calc(.85349vw + 21.26885px)
+            }
+        }
+    
+        @media (min-width:1023px) {
+            .main__title {
+                font-size: calc(-200vw + 2076px)
+            }
+        }
+    
+        @media (min-width:1024px) {
+            .main__title {
+                font-size: calc(2.10084vw + 6.48739px)
+            }
+        }
+    
+        @media (min-width:1500px) {
+            .main__title {
+                font-size: 38px
+            }
+        }
+    
+        @media (min-width:320px) {
+            .main__title {
+                margin-bottom: calc(2.27273vw + 8.72727px)
+            }
+        }
+    
+        @media (min-width:1024px) {
+            .main__title {
+                margin-bottom: 32px
+            }
+        }
+    
+        .main__content {
+            font-size: 16px;
+            width: 100%;
+            max-width: 80%;
+            margin: auto;
+            line-height: 1.4
+        }
+    
+        @media (min-width:320px) {
+            .main__content {
+                font-size: calc(.2845vw + 15.08962px)
+            }
+        }
+    
+        @media (min-width:1023px) {
+            .main__content {
+                font-size: calc(-200vw + 2064px)
+            }
+        }
+    
+        @media (min-width:1024px) {
+            .main__content {
+                font-size: calc(.84034vw + 7.39496px)
+            }
+        }
+    
+        @media (min-width:1500px) {
+            .main__content {
+                font-size: 20px
+            }
+        }
+    
+        @media screen and (min-width:1024px) {
+            .main__content {
+                max-width: 100%
+            }
+        }
+    
+        .form-container {
+            font-family: Open Sans, sans-serif;
+            display: flex;
+            width: 100%;
+            max-width: 550px
+        }
+    
+        @media screen and (min-width:1024px) {
+            .form-container {
+                width: 400px;
+                max-width: 600px
+            }
+        }
+    
+        @media screen and (min-width:1024px) and (min-width:1024px) {
+            .form-container {
+                width: calc(42.01681vw - 30.2521px)
+            }
+        }
+    
+        @media screen and (min-width:1024px) and (min-width:1500px) {
+            .form-container {
+                width: 600px
+            }
+        }
+    
+        .tellus-form {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            margin: auto;
+            padding: 16px;
+            background-color: rgba(0, 0, 0, .76)
+        }
+    
+        @media (min-width:320px) {
+            .tellus-form {
+                padding: calc(1.99147vw + 9.62731px)
+            }
+        }
+    
+        @media (min-width:1023px) {
+            .tellus-form {
+                padding: calc(-1400vw + 14352px)
+            }
+        }
+    
+        @media (min-width:1024px) {
+            .tellus-form {
+                padding: calc(5.04202vw - 35.63025px)
+            }
+        }
+    
+        @media (min-width:1500px) {
+            .tellus-form {
+                padding: 40px
+            }
+        }
+    
+        .tellus-form__title {
+            font-weight: 700;
+            font-size: 20px;
+            line-height: 1.4;
+            color: #fff;
+            text-align: center;
+            padding: 0;
+            margin-bottom: 16px
+        }
+    
+        @media (min-width:320px) {
+            .tellus-form__title {
+                font-size: calc(.56899vw + 18.17923px)
+            }
+        }
+    
+        @media (min-width:1023px) {
+            .tellus-form__title {
+                font-size: calc(-400vw + 4116px)
+            }
+        }
+    
+        @media (min-width:1024px) {
+            .tellus-form__title {
+                font-size: calc(1.2605vw + 7.09244px)
+            }
+        }
+    
+        @media (min-width:1500px) {
+            .tellus-form__title {
+                font-size: 26px
+            }
+        }
+    
+        @media (min-width:320px) {
+            .tellus-form__title {
+                margin-bottom: calc(1.13798vw + 12.35846px)
+            }
+        }
+    
+        @media (min-width:1023px) {
+            .tellus-form__title {
+                margin-bottom: calc(-800vw + 8208px)
+            }
+        }
+    
+        @media (min-width:1024px) {
+            .tellus-form__title {
+                margin-bottom: calc(3.36134vw - 18.42017px)
+            }
+        }
+    
+        @media (min-width:1500px) {
+            .tellus-form__title {
+                margin-bottom: 32px
+            }
+        }
+    
+        .tellus-form__input {
+            width: 100%;
+            font-family: Open Sans, sans-serif;
+            font-size: 16px;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 1.3;
+            padding: 6px 10px;
+            margin-bottom: 12px;
+            border: 2px solid transparent;
+            transition: border-color .3s;
+            flex: none
+        }
+    
+        @media (min-width:320px) {
+            .tellus-form__input {
+                font-size: calc(.2845vw + 13.08962px)
+            }
+        }
+    
+        @media (min-width:1023px) {
+            .tellus-form__input {
+                font-size: calc(-200vw + 2062px)
+            }
+        }
+    
+        @media (min-width:1024px) {
+            .tellus-form__input {
+                font-size: calc(.42017vw + 9.69748px)
+            }
+        }
+    
+        @media (min-width:1500px) {
+            .tellus-form__input {
+                font-size: 16px
+            }
+        }
+    
+        @media (min-width:320px) {
+            .tellus-form__input {
+                padding-top: calc(.85349vw + 3.26885px)
+            }
+        }
+    
+        @media (min-width:1023px) {
+            .tellus-form__input {
+                padding-top: calc(-600vw + 6150px)
+            }
+        }
+    
+        @media (min-width:1024px) {
+            .tellus-form__input {
+                padding-top: calc(1.2605vw - 6.90756px)
+            }
+        }
+    
+        @media (min-width:1500px) {
+            .tellus-form__input {
+                padding-top: 12px
+            }
+        }
+    
+        @media (min-width:320px) {
+            .tellus-form__input {
+                padding-bottom: calc(.85349vw + 3.26885px)
+            }
+        }
+    
+        @media (min-width:1023px) {
+            .tellus-form__input {
+                padding-bottom: calc(-600vw + 6150px)
+            }
+        }
+    
+        @media (min-width:1024px) {
+            .tellus-form__input {
+                padding-bottom: calc(1.2605vw - 6.90756px)
+            }
+        }
+    
+        @media (min-width:1500px) {
+            .tellus-form__input {
+                padding-bottom: 12px
+            }
+        }
+    
+        @media (min-width:320px) {
+            .tellus-form__input {
+                padding-left: calc(.85349vw + 7.26885px)
+            }
+        }
+    
+        @media (min-width:1023px) {
+            .tellus-form__input {
+                padding-left: calc(-600vw + 6154px)
+            }
+        }
+    
+        @media (min-width:1024px) {
+            .tellus-form__input {
+                padding-left: calc(1.2605vw - 2.90756px)
+            }
+        }
+    
+        @media (min-width:1500px) {
+            .tellus-form__input {
+                padding-left: 16px
+            }
+        }
+    
+        @media (min-width:320px) {
+            .tellus-form__input {
+                padding-right: calc(.85349vw + 7.26885px)
+            }
+        }
+    
+        @media (min-width:1023px) {
+            .tellus-form__input {
+                padding-right: calc(-600vw + 6154px)
+            }
+        }
+    
+        @media (min-width:1024px) {
+            .tellus-form__input {
+                padding-right: calc(1.2605vw - 2.90756px)
+            }
+        }
+    
+        @media (min-width:1500px) {
+            .tellus-form__input {
+                padding-right: 16px
+            }
+        }
+    
+        @media (min-width:320px) {
+            .tellus-form__input {
+                margin-bottom: calc(.56899vw + 10.17923px)
+            }
+        }
+    
+        @media (min-width:1023px) {
+            .tellus-form__input {
+                margin-bottom: calc(-400vw + 4108px)
+            }
+        }
+    
+        @media (min-width:1024px) {
+            .tellus-form__input {
+                margin-bottom: calc(.84034vw + 3.39496px)
+            }
+        }
+    
+        @media (min-width:1500px) {
+            .tellus-form__input {
+                margin-bottom: 16px
+            }
+        }
+    
+        .tellus-form__input--textarea {
+            resize: none;
+            max-height: 80px;
+            height: 80px
+        }
+    
+        .tellus-form__input.field_error {
+            border-width: 2px !important
+        }
+    
+        .tellus-form button.tellus-form__submit {
+            font-weight: 700;
+            font-size: 18px;
+            line-height: 38px
+        }
+    
+        .tellus-form button.tellus-form__submit:disabled {
+            pointer-events: none;
+            opacity: .6
+        }
+    
+        .tellus-form--short .tellus-form__input--textarea {
+            max-height: 110px;
+            height: 110px;
+            margin-bottom: 28px
+        }
+    
+        .tellus-form .alert {
+            margin-top: 0
+        }
+    
+        .tellus-form .field_error {
+            border-color: red
+        }
+    
+        .tellus-input-group {
+            display: flex;
+            flex-direction: column
+        }
+    
+        @media screen and (min-width:1024px) {
+            .tellus-input-group {
+                flex-direction: row
+            }
+    
+            .tellus-input-group>* {
+                width: calc(50% - 6px)
+            }
+    
+            .tellus-input-group>:first-child {
+                margin-right: 6px
+            }
+    
+            .tellus-input-group>:last-child {
+                margin-left: 6px
+            }
+        }
+    
+        .tellus-select {
+            background: #fff;
+            position: relative;
+            text-align: left;
+            color: #231f20;
+            margin-bottom: 12px
+        }
+    
+        @media (min-width:320px) {
+            .tellus-select {
+                margin-bottom: calc(.56899vw + 10.17923px)
+            }
+        }
+    
+        @media (min-width:1023px) {
+            .tellus-select {
+                margin-bottom: calc(-400vw + 4108px)
+            }
+        }
+    
+        @media (min-width:1024px) {
+            .tellus-select {
+                margin-bottom: calc(.84034vw + 3.39496px)
+            }
+        }
+    
+        @media (min-width:1500px) {
+            .tellus-select {
+                margin-bottom: 16px
+            }
+        }
+    
+        .tellus-select__label {
+            cursor: pointer;
+            display: block;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            margin-bottom: 0;
+            padding-right: 24px
+        }
+    
+        @media (min-width:320px) {
+            .tellus-select__label {
+                padding-right: calc(.85349vw + 21.26885px)
+            }
+        }
+    
+        @media (min-width:1023px) {
+            .tellus-select__label {
+                padding-right: calc(-600vw + 6168px)
+            }
+        }
+    
+        @media (min-width:1024px) {
+            .tellus-select__label {
+                padding-right: calc(1.2605vw + 11.09244px)
+            }
+        }
+    
+        @media (min-width:1500px) {
+            .tellus-select__label {
+                padding-right: 30px
+            }
+        }
+    
+        .tellus-select__items {
+            position: absolute;
+            width: 100%;
+            height: auto;
+            left: 0;
+            overflow: hidden;
+            display: none;
+            overflow-y: auto;
+            z-index: 9;
+            background: #fff
+        }
+    
+        .tellus-select__item {
+            cursor: pointer;
+            margin-bottom: 0;
+            border-top: 1px solid #e0e0e0;
+            width: 100%
+        }
+    
+        .tellus-select__item:hover {
+            background-color: #e0e0e0
+        }
+    
+        .tellus-select__item:active {
+            background-color: #e2e2e2
+        }
+    
+        .tellus-select__arrow {
+            display: inline-block;
+            position: absolute;
+            right: 16px;
+            top: 50%;
+            transform: translateY(-50%);
+            transition: transform .2s
+        }
+    
+        .tellus-select__arrow:before {
+            content: "";
+            display: block;
+            width: 6px;
+            height: 6px;
+            border-top: 1px solid;
+            border-left: 1px solid;
+            transform: rotate(225deg) translateY(50%)
+        }
+    
+        @media (min-width:320px) {
+            .tellus-select__arrow:before {
+                width: calc(.56899vw + 4.17923px)
+            }
+        }
+    
+        @media (min-width:1023px) {
+            .tellus-select__arrow:before {
+                width: calc(-400vw + 4102px)
+            }
+        }
+    
+        @media (min-width:1024px) {
+            .tellus-select__arrow:before {
+                width: calc(.84034vw - 2.60504px)
+            }
+        }
+    
+        @media (min-width:1500px) {
+            .tellus-select__arrow:before {
+                width: 10px
+            }
+        }
+    
+        @media (min-width:320px) {
+            .tellus-select__arrow:before {
+                height: calc(.56899vw + 4.17923px)
+            }
+        }
+    
+        @media (min-width:1023px) {
+            .tellus-select__arrow:before {
+                height: calc(-400vw + 4102px)
+            }
+        }
+    
+        @media (min-width:1024px) {
+            .tellus-select__arrow:before {
+                height: calc(.84034vw - 2.60504px)
+            }
+        }
+    
+        @media (min-width:1500px) {
+            .tellus-select__arrow:before {
+                height: 10px
+            }
+        }
+    
+        .tellus-select.active .tellus-select__arrow {
+            transform: scaleY(-1) translateY(50%)
+        }
+    
+        .alert {
+            text-shadow: 0 1px 0 hsla(0, 0%, 100%, .2);
+            box-shadow: inset 0 1px 0 hsla(0, 0%, 100%, .25), 0 1px 2px rgba(0, 0, 0, .05);
+            padding: 15px;
+            margin-bottom: 20px;
+            border: 1px solid transparent;
+            border-radius: 4px
+        }
+    
+        .alert-success {
+            background-image: linear-gradient(180deg, #dff0d8 0, #c8e5bc);
+            background-repeat: repeat-x;
+            border-color: #b2dba1;
+            color: #3c763d;
+            background-color: #dff0d8
+        }
+    
+        .alert-danger {
+            background-image: linear-gradient(180deg, #f2dede 0, #e7c3c3);
+            background-repeat: repeat-x;
+            border-color: #dca7a7;
+            color: #a94442;
+            background-color: #f2dede
+        }
+    
+        .slick-slider {
+            box-sizing: border-box;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+            -webkit-touch-callout: none;
+            -khtml-user-select: none;
+            touch-action: pan-y;
+            -webkit-tap-highlight-color: transparent
+        }
+    
+        .slick-list,
+        .slick-slider {
+            position: relative;
+            display: block
+        }
+    
+        .slick-list {
+            overflow: hidden;
+            margin: 0;
+            padding: 0
+        }
+    
+        .slick-list:focus {
+            outline: 0
+        }
+    
+        .slick-list.dragging {
+            cursor: pointer;
+            cursor: hand
+        }
+    
+        .slick-slider .slick-list,
+        .slick-slider .slick-track {
+            transform: translateZ(0)
+        }
+    
+        .slick-track {
+            position: relative;
+            top: 0;
+            left: 0;
+            display: block;
+            margin-left: auto;
+            margin-right: auto
+        }
+    
+        .slick-track:after,
+        .slick-track:before {
+            display: table;
+            content: ""
+        }
+    
+        .slick-track:after {
+            clear: both
+        }
+    
+        .slick-loading .slick-track {
+            visibility: hidden
+        }
+    
+        .slick-slide {
+            float: left
+        }
+    
+        [dir=rtl] .slick-slide {
+            float: right
+        }
+    
+        .slick-slide img {
+            height: 100%;
+            width: 100%
+        }
+    
+        .slick-slide.slick-loading img {
+            display: none
+        }
+    
+        .slick-slide.dragging img {
+            pointer-events: none
+        }
+    
+        .slick-initialized .slick-slide {
+            display: flex
+        }
+    
+        .slick-loading .slick-slide {
+            visibility: hidden
+        }
+    
+        .slick-vertical .slick-slide {
+            display: block;
+            height: auto;
+            border: 1px solid transparent
+        }
+    
+        .slick-arrow.slick-hidden {
+            display: none
+        }
+    
+        .slider {
+            width: 100%;
+            margin: 20px auto
+        }
+    
+        .slick-slide {
+            display: flex;
+            margin: 0 20px
+        }
+    
+        .slick-next {
+            background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAgCAYAAAASYli2AAABCUlEQVR42u2UzREBQRCFhbAhCEEIQpABGZABGZCBEPaoCrt9UKaHNdMhCGFDwDu40A49s7UnU9XXr6bfTw/oItPaxbbmeK9cWAxyH0CvebyHWJZZQPwOoM6gFYcZIJ9T+VCSSJEE3Z+vI6yugO875mESlFiGvUKxRRqUpKhcKDVdEascs1aAmBPQP9SHRX+x+scKl6vbBPjYJsFKkYJYttrqZtgOOvooXzAXW1wuI+y3KWQ15ehuE/xChVljQxdZKiAMmdtCXtY/Ls/G7GTNQoYzZhcfGh64GZtgh1Mz7k58L3NVfB8lyUmL+PYaAXYOK3vJnZSJNdJfXo10IGWIrx9MrIewKjUyvyeK28mRNgALFgAAAABJRU5ErkJggg==) no-repeat;
+            background-size: contain
+        }
+    
+        .slick-prev {
+            background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAgCAYAAAASYli2AAABCklEQVR42u2TV1nAUAyFkYCESkACEnAAEnDQOihO+sgmT90jEiqhEso9bO53GAl7dD/9Tf6cbLz1kFZ3L6ppuainGd9vhaUBtN7dzbT4YY3mgET3bAYVqpvn1VgQ2Hpej3sm2GGtSWhLYxAcStltmWFoibUpdZ2YYCfh76gihqFawMyxYL4keJTg0xwLKr8aD1yxoLByzH5SLP5jgQMt0Vh4D9bqeaW5qzociAIgzN9h5M80lKcm7IYKjw0qXc6qYccHlae3RGpNLazYawYIG9aboeQWt9fTut9GrD5kWAyKdPih1aTc67jv9oqV/LwENGPxtnXlwxIj6uVhOXEciraNCL6uUIBpw+ElYaLJqJEf4xUAAAAASUVORK5CYII=) no-repeat;
+            background-size: contain
+        }
+    
+        .slick-slide {
+            transition: all .3s ease-in-out
+        }
+    
+        .slick-current {
+            opacity: 1
+        }
+    
+        .slick-next,
+        .slick-prev {
+            font-size: 0;
+            line-height: 0;
+            position: absolute;
+            top: 50%;
+            display: block;
+            width: 30px;
+            height: 30px;
+            padding: 0;
+            cursor: pointer;
+            color: transparent;
+            border: none;
+            outline: 0
+        }
+    
+        .slick-next.slick-disabled:before,
+        .slick-prev.slick-disabled:before {
+            opacity: .25
+        }
+    
+        .slick-prev {
+            left: -35px
+        }
+    
+        .slick-next {
+            right: -35px
+        }
+    
+        .slick-dotted.slick-slider {
+            margin-bottom: 30px
+        }
+    
+        .slick-dots {
+            position: absolute;
+            bottom: -25px;
+            display: block;
+            width: 100%;
+            padding: 0;
+            margin: 0;
+            list-style: none;
+            text-align: center
+        }
+    
+        .slick-dots li {
+            position: relative;
+            display: inline-block;
+            margin: 0 5px;
+            padding: 0
+        }
+    
+        .slick-dots li,
+        .slick-dots li button {
+            width: 20px;
+            height: 20px;
+            cursor: pointer
+        }
+    
+        .slick-dots li button {
+            font-size: 0;
+            line-height: 0;
+            display: block;
+            padding: 5px;
+            color: transparent;
+            border: 0;
+            outline: 0
+        }
+    
+        .slick-dots li button:focus,
+        .slick-dots li button:hover {
+            outline: 0
+        }
+    
+        .slick-dots li button:focus:before,
+        .slick-dots li button:hover:before {
+            opacity: 1
+        }
+    
+        .slick-dots li button:before {
+            font-size: 6px;
+            line-height: 20px;
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 20px;
+            height: 20px;
+            content: "•";
+            text-align: center;
+            opacity: .25;
+            color: transparent;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale
+        }
+    
+        .slick-dots li.slick-active button:before {
+            opacity: .3
+        }
+    
+        .slick-arrow:hover {
+            color: #0367bf
+        }
+    
+        .slick-active button {
+            background: #0eb27f !important
+        }
+    
+        .form-container {
+            font-family: Open Sans, sans-serif;
+            display: flex;
+            width: 100%;
+            max-width: 550px
+        }
+    
+        @media screen and (min-width:1024px) {
+            .form-container {
+                width: 400px;
+                max-width: 600px
+            }
+        }
+    
+        @media screen and (min-width:1024px) and (min-width:1024px) {
+            .form-container {
+                width: calc(42.01681vw - 30.2521px)
+            }
+        }
+    
+        @media screen and (min-width:1024px) and (min-width:1500px) {
+            .form-container {
+                width: 600px
+            }
+        }
+    
+        .tellus-form {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            margin: auto;
+            padding: 16px;
+            background-color: rgba(0, 0, 0, .76)
+        }
+    
+        @media (min-width:320px) {
+            .tellus-form {
+                padding: calc(1.99147vw + 9.62731px)
+            }
+        }
+    
+        @media (min-width:1023px) {
+            .tellus-form {
+                padding: calc(-1400vw + 14352px)
+            }
+        }
+    
+        @media (min-width:1024px) {
+            .tellus-form {
+                padding: calc(5.04202vw - 35.63025px)
+            }
+        }
+    
+        @media (min-width:1500px) {
+            .tellus-form {
+                padding: 40px
+            }
+        }
+    
+        .tellus-form__title {
+            font-weight: 700;
+            font-size: 20px;
+            line-height: 1.4;
+            color: #fff;
+            text-align: center;
+            padding: 0;
+            margin-bottom: 16px
+        }
+    
+        @media (min-width:320px) {
+            .tellus-form__title {
+                font-size: calc(.56899vw + 18.17923px)
+            }
+        }
+    
+        @media (min-width:1023px) {
+            .tellus-form__title {
+                font-size: calc(-400vw + 4116px)
+            }
+        }
+    
+        @media (min-width:1024px) {
+            .tellus-form__title {
+                font-size: calc(1.2605vw + 7.09244px)
+            }
+        }
+    
+        @media (min-width:1500px) {
+            .tellus-form__title {
+                font-size: 26px
+            }
+        }
+    
+        @media (min-width:320px) {
+            .tellus-form__title {
+                margin-bottom: calc(1.13798vw + 12.35846px)
+            }
+        }
+    
+        @media (min-width:1023px) {
+            .tellus-form__title {
+                margin-bottom: calc(-800vw + 8208px)
+            }
+        }
+    
+        @media (min-width:1024px) {
+            .tellus-form__title {
+                margin-bottom: calc(3.36134vw - 18.42017px)
+            }
+        }
+    
+        @media (min-width:1500px) {
+            .tellus-form__title {
+                margin-bottom: 32px
+            }
+        }
+    
+        .tellus-form__input {
+            width: 100%;
+            font-family: Open Sans, sans-serif;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 1.3;
+            padding: 6px 10px;
+            margin-bottom: 12px;
+            border: 2px solid transparent;
+            transition: border-color .3s;
+            flex: none
+        }
+    
+        @media (min-width:320px) {
+            .tellus-form__input {
+                font-size: calc(.2845vw + 13.08962px)
+            }
+        }
+    
+        @media (min-width:1023px) {
+            .tellus-form__input {
+                font-size: calc(-200vw + 2062px)
+            }
+        }
+    
+        @media (min-width:1024px) {
+            .tellus-form__input {
+                font-size: calc(.42017vw + 9.69748px)
+            }
+        }
+    
+        @media (min-width:1500px) {
+            .tellus-form__input {
+                font-size: 16px
+            }
+        }
+    
+        @media (min-width:320px) {
+            .tellus-form__input {
+                padding-top: calc(.85349vw + 3.26885px)
+            }
+        }
+    
+        @media (min-width:1023px) {
+            .tellus-form__input {
+                padding-top: calc(-600vw + 6150px)
+            }
+        }
+    
+        @media (min-width:1024px) {
+            .tellus-form__input {
+                padding-top: calc(1.2605vw - 6.90756px)
+            }
+        }
+    
+        @media (min-width:1500px) {
+            .tellus-form__input {
+                padding-top: 12px
+            }
+        }
+    
+        @media (min-width:320px) {
+            .tellus-form__input {
+                padding-bottom: calc(.85349vw + 3.26885px)
+            }
+        }
+    
+        @media (min-width:1023px) {
+            .tellus-form__input {
+                padding-bottom: calc(-600vw + 6150px)
+            }
+        }
+    
+        @media (min-width:1024px) {
+            .tellus-form__input {
+                padding-bottom: calc(1.2605vw - 6.90756px)
+            }
+        }
+    
+        @media (min-width:1500px) {
+            .tellus-form__input {
+                padding-bottom: 12px
+            }
+        }
+    
+        @media (min-width:320px) {
+            .tellus-form__input {
+                padding-left: calc(.85349vw + 7.26885px)
+            }
+        }
+    
+        @media (min-width:1023px) {
+            .tellus-form__input {
+                padding-left: calc(-600vw + 6154px)
+            }
+        }
+    
+        @media (min-width:1024px) {
+            .tellus-form__input {
+                padding-left: calc(1.2605vw - 2.90756px)
+            }
+        }
+    
+        @media (min-width:1500px) {
+            .tellus-form__input {
+                padding-left: 16px
+            }
+        }
+    
+        @media (min-width:320px) {
+            .tellus-form__input {
+                padding-right: calc(.85349vw + 7.26885px)
+            }
+        }
+    
+        @media (min-width:1023px) {
+            .tellus-form__input {
+                padding-right: calc(-600vw + 6154px)
+            }
+        }
+    
+        @media (min-width:1024px) {
+            .tellus-form__input {
+                padding-right: calc(1.2605vw - 2.90756px)
+            }
+        }
+    
+        @media (min-width:1500px) {
+            .tellus-form__input {
+                padding-right: 16px
+            }
+        }
+    
+        @media (min-width:320px) {
+            .tellus-form__input {
+                margin-bottom: calc(.56899vw + 10.17923px)
+            }
+        }
+    
+        @media (min-width:1023px) {
+            .tellus-form__input {
+                margin-bottom: calc(-400vw + 4108px)
+            }
+        }
+    
+        @media (min-width:1024px) {
+            .tellus-form__input {
+                margin-bottom: calc(.84034vw + 3.39496px)
+            }
+        }
+    
+        @media (min-width:1500px) {
+            .tellus-form__input {
+                margin-bottom: 16px
+            }
+        }
+    
+        .tellus-form__input--textarea {
+            resize: none;
+            max-height: 80px;
+            height: 80px
+        }
+    
+        .tellus-form__input.field_error {
+            border-width: 2px !important
+        }
+    
+        .tellus-form button.tellus-form__submit {
+            font-weight: 700;
+            font-size: 18px;
+            line-height: 38px
+        }
+    
+        .tellus-form button.tellus-form__submit:disabled {
+            pointer-events: none;
+            opacity: .6
+        }
+    
+        .tellus-form--short .tellus-form__input--textarea {
+            max-height: 110px;
+            height: 110px;
+            margin-bottom: 28px
+        }
+    
+        .tellus-form .alert {
+            margin-top: 0
+        }
+    
+        .tellus-form .field_error {
+            border-color: red
+        }
+    
+        .tellus-input-group {
+            display: flex;
+            flex-direction: column
+        }
+    
+        @media screen and (min-width:1024px) {
+            .tellus-input-group {
+                flex-direction: row
+            }
+    
+            .tellus-input-group>* {
+                width: calc(50% - 6px)
+            }
+    
+            .tellus-input-group>:first-child {
+                margin-right: 6px
+            }
+    
+            .tellus-input-group>:last-child {
+                margin-left: 6px
+            }
+        }
+    
+        .tellus-select {
+            background: #fff;
+            position: relative;
+            text-align: left;
+            color: #231f20;
+            margin-bottom: 12px
+        }
+    
+        @media (min-width:320px) {
+            .tellus-select {
+                margin-bottom: calc(.56899vw + 10.17923px)
+            }
+        }
+    
+        @media (min-width:1023px) {
+            .tellus-select {
+                margin-bottom: calc(-400vw + 4108px)
+            }
+        }
+    
+        @media (min-width:1024px) {
+            .tellus-select {
+                margin-bottom: calc(.84034vw + 3.39496px)
+            }
+        }
+    
+        @media (min-width:1500px) {
+            .tellus-select {
+                margin-bottom: 16px
+            }
+        }
+    
+        .tellus-select__label {
+            cursor: pointer;
+            display: block;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            margin-bottom: 0;
+            padding-right: 24px
+        }
+    
+        @media (min-width:320px) {
+            .tellus-select__label {
+                padding-right: calc(.85349vw + 21.26885px)
+            }
+        }
+    
+        @media (min-width:1023px) {
+            .tellus-select__label {
+                padding-right: calc(-600vw + 6168px)
+            }
+        }
+    
+        @media (min-width:1024px) {
+            .tellus-select__label {
+                padding-right: calc(1.2605vw + 11.09244px)
+            }
+        }
+    
+        @media (min-width:1500px) {
+            .tellus-select__label {
+                padding-right: 30px
+            }
+        }
+    
+        .tellus-select__items {
+            position: absolute;
+            width: 100%;
+            height: auto;
+            left: 0;
+            overflow: hidden;
+            display: none;
+            overflow-y: auto;
+            z-index: 9;
+            background: #fff
+        }
+    
+        .tellus-select__item {
+            cursor: pointer;
+            margin-bottom: 0;
+            border-top: 1px solid #e0e0e0;
+            width: 100%
+        }
+    
+        .tellus-select__item:hover {
+            background-color: #e0e0e0
+        }
+    
+        .tellus-select__item:active {
+            background-color: #e2e2e2
+        }
+    
+        .tellus-select__arrow {
+            display: inline-block;
+            position: absolute;
+            right: 16px;
+            top: 50%;
+            transform: translateY(-50%);
+            transition: transform .2s
+        }
+    
+        .tellus-select__arrow:before {
+            content: "";
+            display: block;
+            width: 6px;
+            height: 6px;
+            border-top: 1px solid;
+            border-left: 1px solid;
+            transform: rotate(225deg) translateY(50%)
+        }
+    
+        @media (min-width:320px) {
+            .tellus-select__arrow:before {
+                width: calc(.56899vw + 4.17923px)
+            }
+        }
+    
+        @media (min-width:1023px) {
+            .tellus-select__arrow:before {
+                width: calc(-400vw + 4102px)
+            }
+        }
+    
+        @media (min-width:1024px) {
+            .tellus-select__arrow:before {
+                width: calc(.84034vw - 2.60504px)
+            }
+        }
+    
+        @media (min-width:1500px) {
+            .tellus-select__arrow:before {
+                width: 10px
+            }
+        }
+    
+        @media (min-width:320px) {
+            .tellus-select__arrow:before {
+                height: calc(.56899vw + 4.17923px)
+            }
+        }
+    
+        @media (min-width:1023px) {
+            .tellus-select__arrow:before {
+                height: calc(-400vw + 4102px)
+            }
+        }
+    
+        @media (min-width:1024px) {
+            .tellus-select__arrow:before {
+                height: calc(.84034vw - 2.60504px)
+            }
+        }
+    
+        @media (min-width:1500px) {
+            .tellus-select__arrow:before {
+                height: 10px
+            }
+        }
+    
+        .tellus-select.active .tellus-select__arrow {
+            transform: scaleY(-1) translateY(50%)
+        }
+    
+        .alert {
+            text-shadow: 0 1px 0 hsla(0, 0%, 100%, .2);
+            box-shadow: inset 0 1px 0 hsla(0, 0%, 100%, .25), 0 1px 2px rgba(0, 0, 0, .05);
+            padding: 15px;
+            margin-bottom: 20px;
+            border: 1px solid transparent;
+            border-radius: 4px
+        }
+    
+        .alert-success {
+            background-image: linear-gradient(180deg, #dff0d8 0, #c8e5bc);
+            background-repeat: repeat-x;
+            border-color: #b2dba1;
+            color: #3c763d;
+            background-color: #dff0d8
+        }
+    
+        .alert-danger {
+            background-image: linear-gradient(180deg, #f2dede 0, #e7c3c3);
+            background-repeat: repeat-x;
+            border-color: #dca7a7;
+            color: #a94442;
+            background-color: #f2dede
+        }
+    
+        .advantages {
+            background: #fafafa
+        }
+    
+        .advantages-row {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin: 0
+        }
+    
+        .advantages-col {
+            min-width: 250px;
+            width: 30%;
+            margin: 0 15px 15px;
+            min-height: 285px;
+            padding: 0 1.37vw 1.27vw 1.75vw;
+            position: relative;
+            background: #fff;
+            border: 2.5px solid rgba(0, 0, 0, .14)
+        }
+    
+        .advantages-col__title {
+            font-size: 20px;
+            font-weight: 600;
+            line-height: normal;
+            margin-left: 25px;
+            margin-bottom: 0
+        }
+    
+        .advantages-col__text {
+            font-size: 17px;
+            line-height: 20px;
+            color: #828282
+        }
+    
+        .advantages-col__img {
+            height: 70px;
+            padding-top: 5%;
+            margin-bottom: 5%;
+            display: flex;
+            align-items: center
+        }
+    
+        .advantages-col__img svg {
+            height: 60px;
+            width: 60px;
+            color: #0eb27f
+        }
+    
+        .advantages-list {
+            margin-top: 15px;
+            padding-left: 15px
+        }
+    
+        .advantages-list li {
+            list-style-type: disc;
+            font-size: 17px;
+            line-height: 20px;
+            color: #828282
+        }
+    
+        @media only screen and (max-width:1500px) {
+            .advantages-col__text {
+                font-size: 16px
+            }
+    
+            .advantages-col__title {
+                font-size: 19px
+            }
+    
+            .advantages-list li {
+                font-size: 16px
+            }
+        }
+    
+        @media only screen and (max-width:1280px) {
+            .advantages-col {
+                margin: 0 10px 10px
+            }
+    
+            .advantages-col__title {
+                font-size: 18px
+            }
+    
+            .advantages-col__text,
+            .advantages-list li {
+                line-height: normal;
+                font-size: 15px
+            }
+        }
+    
+        @media only screen and (max-width:1120px) {
+            .advantages-col__title {
+                max-width: 300px;
+                margin-top: 0;
+                margin-left: 10px
+            }
+        }
+    
+        @media only screen and (max-width:980px) {
+            .advantages-col {
+                flex-direction: column
+            }
+    
+            .advantages-col__img svg {
+                height: 50px;
+                width: 50px
+            }
+    
+            .advantages .slider,
+            .technology-main .slider {
+                display: flex;
+                width: 100%;
+                margin: 22px auto
+            }
+    
+            .advantages .slick-slide {
+                margin: 0 5px
+            }
+    
+            .advantages-list li {
+                font-size: 14px;
+                line-height: 18px
+            }
+    
+            .advantages-col__img {
+                padding-top: 0;
+                margin-bottom: 0
+            }
+    
+            .advantages-col__title {
+                line-height: 23px
+            }
+    
+            .advantages-col__text {
+                font-size: 14px;
+                line-height: 18px
+            }
+        }
+    
+        @media only screen and (max-width:600px) {
+            .advantages-col__title {
+                font-size: 16px;
+                margin-left: 19px
+            }
+    
+            .advantages-col__text,
+            .advantages-list li {
+                font-size: 13px
+            }
+        }
+    
+        @media only screen and (max-width:560px) {
+    
+            .advantages-col,
+            .we-col {
+                width: 100%
+            }
+    
+            .advantages .container:last-child {
+                margin: 0 !important
+            }
+    
+            .advantages .slider {
+                width: 80%
+            }
+        }
+    
+        @media only screen and (max-width:450px) {
+            .advantages {
+                padding-bottom: 80px
+            }
+    
+            .advantages .slider {
+                width: 100%
+            }
+        }
+    
+        .technology-content {
+            width: 100%;
+            padding: 16px 24px;
+            margin: 40px auto;
+            max-width: 1220px;
+            background: #fff;
+            border: 2.5px solid rgba(0, 0, 0, .14)
+        }
+    
+        @media (min-width:980px) {
+            .technology-content {
+                padding-top: calc(8.46154vw - 66.92308px)
+            }
+        }
+    
+        @media (min-width:1500px) {
+            .technology-content {
+                padding-top: 60px
+            }
+        }
+    
+        @media (min-width:980px) {
+            .technology-content {
+                padding-bottom: calc(8.46154vw - 66.92308px)
+            }
+        }
+    
+        @media (min-width:1500px) {
+            .technology-content {
+                padding-bottom: 60px
+            }
+        }
+    
+        @media (min-width:980px) {
+            .technology-content {
+                padding-left: calc(9.80769vw - 72.11538px)
+            }
+        }
+    
+        @media (min-width:1500px) {
+            .technology-content {
+                padding-left: 75px
+            }
+        }
+    
+        @media (min-width:980px) {
+            .technology-content {
+                padding-right: calc(9.80769vw - 72.11538px)
+            }
+        }
+    
+        @media (min-width:1500px) {
+            .technology-content {
+                padding-right: 75px
+            }
+        }
+    
+        @media (min-width:980px) {
+            .technology-content {
+                margin-top: calc(8.07692vw - 39.15385px)
+            }
+        }
+    
+        @media (min-width:1500px) {
+            .technology-content {
+                margin-top: 82px
+            }
+        }
+    
+        @media (min-width:980px) {
+            .technology-content {
+                margin-bottom: calc(8.07692vw - 39.15385px)
+            }
+        }
+    
+        @media (min-width:1500px) {
+            .technology-content {
+                margin-bottom: 82px
+            }
+        }
+    
+        .technology-item {
+            display: flex;
+            align-items: center;
+            flex-wrap: wrap
+        }
+    
+        .technology-item--separator {
+            width: 65%;
+            margin: 14px 0 14px auto;
+            border-top: 2px solid #f0f0f0
+        }
+    
+        @media (min-width:980px) {
+            .technology-item--separator {
+                margin-top: calc(1.15385vw + 2.69231px)
+            }
+        }
+    
+        @media (min-width:1500px) {
+            .technology-item--separator {
+                margin-top: 20px
+            }
+        }
+    
+        @media (min-width:980px) {
+            .technology-item--separator {
+                margin-bottom: calc(1.15385vw + 2.69231px)
+            }
+        }
+    
+        @media (min-width:1500px) {
+            .technology-item--separator {
+                margin-bottom: 20px
+            }
+        }
+    
+        .technology-title {
+            display: flex;
+            align-items: center;
+            min-width: 220px;
+            flex: none;
+            width: 35%
+        }
+    
+        .technology-title h3 {
+            font-weight: 600;
+            font-size: 16px;
+            color: #4f4f4f;
+            margin-bottom: 0;
+            margin-left: 12px;
+            letter-spacing: 0
+        }
+    
+        @media (min-width:980px) {
+            .technology-title h3 {
+                font-size: calc(1.15385vw + 4.69231px)
+            }
+        }
+    
+        @media (min-width:1500px) {
+            .technology-title h3 {
+                font-size: 22px
+            }
+        }
+    
+        @media (min-width:980px) {
+            .technology-title h3 {
+                margin-left: calc(1.53846vw - 3.07692px)
+            }
+        }
+    
+        @media (min-width:1500px) {
+            .technology-title h3 {
+                margin-left: 20px
+            }
+        }
+    
+        .technology-icon {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 40px;
+            height: 40px;
+            flex: none;
+            background: rgba(14, 178, 127, .25);
+            border-radius: 50%
+        }
+    
+        @media (min-width:980px) {
+            .technology-icon {
+                width: calc(5.76923vw - 16.53846px)
+            }
+        }
+    
+        @media (min-width:1500px) {
+            .technology-icon {
+                width: 70px
+            }
+        }
+    
+        @media (min-width:980px) {
+            .technology-icon {
+                height: calc(5.76923vw - 16.53846px)
+            }
+        }
+    
+        @media (min-width:1500px) {
+            .technology-icon {
+                height: 70px
+            }
+        }
+    
+        .technology-icon svg {
+            width: 16px;
+            height: 16px;
+            color: #0eb27f
+        }
+    
+        @media (min-width:980px) {
+            .technology-icon svg {
+                width: calc(2.69231vw - 10.38462px)
+            }
+        }
+    
+        @media (min-width:1500px) {
+            .technology-icon svg {
+                width: 30px
+            }
+        }
+    
+        @media (min-width:980px) {
+            .technology-icon svg {
+                height: calc(2.69231vw - 10.38462px)
+            }
+        }
+    
+        @media (min-width:1500px) {
+            .technology-icon svg {
+                height: 30px
+            }
+        }
+    
+        .technology-list {
+            display: block;
+            width: 65%;
+            height: 100%;
+            padding-left: 8px;
+            -moz-column-count: 4;
+            column-count: 4
+        }
+    
+        @media (min-width:980px) {
+            .technology-list {
+                padding-left: calc(3.07692vw - 22.15385px)
+            }
+        }
+    
+        @media (min-width:1500px) {
+            .technology-list {
+                padding-left: 24px
+            }
+        }
+    
+        .technology-list-item {
+            position: relative;
+            font-size: 16px;
+            padding-left: 6px;
+            line-height: 32px;
+            flex: 0 0 25%;
+            color: #828282;
+            white-space: nowrap
+        }
+    
+        @media (min-width:980px) {
+            .technology-list-item {
+                font-size: calc(1.15385vw + 4.69231px)
+            }
+        }
+    
+        @media (min-width:1500px) {
+            .technology-list-item {
+                font-size: 22px
+            }
+        }
+    
+        @media (min-width:980px) {
+            .technology-list-item {
+                padding-left: calc(.76923vw - 1.53846px)
+            }
+        }
+    
+        @media (min-width:1500px) {
+            .technology-list-item {
+                padding-left: 10px
+            }
+        }
+    
+        @media screen and (max-width:1500px) {
+            .technology-list-item {
+                line-height: 28px
+            }
+        }
+    
+        @media screen and (max-width:1200px) {
+            .technology-list-item {
+                line-height: 24px
+            }
+        }
+    
+        .technology-list-item:before {
+            content: "";
+            position: absolute;
+            width: 3px;
+            height: 3px;
+            border-radius: 50%;
+            background: #0eb27f;
+            top: 50%;
+            left: 0;
+            transform: translateY(-50%)
+        }
+    
+        .technology .container {
+            align-items: center
+        }
+    
+        .technology .slider {
+            display: none;
+            width: 100%
+        }
+    
+        .technology .slick-slide {
+            margin: 0 5px
+        }
+    
+        .technology .slick-dots {
+            bottom: -60px
+        }
+    
+        @media screen and (max-width:980px) {
+            .technology-content {
+                border: 0;
+                padding: 0
+            }
+    
+            .technology-item {
+                flex-direction: column;
+                align-items: flex-start;
+                border: 2px solid rgba(0, 0, 0, .14);
+                padding: 26px;
+                min-height: 330px
+            }
+    
+            .technology-item--separator {
+                display: none !important;
+                visibility: hidden
+            }
+    
+            .technology-title {
+                margin-bottom: 25px
+            }
+    
+            .technology-title h3 {
+                font-size: 20px;
+                margin-left: 28px;
+                line-height: 1.3
+            }
+    
+            .technology-icon {
+                width: 54px;
+                height: 54px
+            }
+    
+            .technology-icon svg {
+                width: 23px;
+                height: 23px
+            }
+    
+            .technology-list {
+                -moz-column-count: 1;
+                column-count: 1
+            }
+    
+            .technology-list .technology-list-item {
+                font-size: 16px
+            }
+        }
+    
+        .contactUs {
+            width: 100%;
+            background-repeat: no-repeat;
+            background-position: 50%;
+            background-size: cover;
+            color: #fff;
+            position: relative
+        }
+    
+        .contactUs img {
+            z-index: 1
+        }
+    
+        .contactUs .gradient {
+            background-image: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, .8));
+            z-index: 2
+        }
+    
+        .contactUs .gradient,
+        .contactUs img {
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            top: 0;
+            left: 0
+        }
+    
+        .contactUs button {
+            width: 202px;
+            height: 57px;
+            font-size: 19px !important;
+            line-height: 31px;
+            font-weight: 400 !important
+        }
+    
+        .contactUs .section-main__info {
+            margin-bottom: 0;
+            position: relative;
+            z-index: 3
+        }
+    
+        @media only screen and (max-width:600px) {
+            .contactUs button {
+                font-size: 16px !important
+            }
+        }
+    
+        .cycle {
+            background: #fff
+        }
+    
+        .cycle-content-img {
+            display: none
+        }
+    
+        @media screen and (min-width:768px) {
+            .cycle-content-img {
+                display: block;
+                max-width: 80%;
+                margin: auto
+            }
+        }
+    
+        .cycle-list {
+            margin-left: 20px;
+            counter-reset: section;
+            list-style-type: none
+        }
+    
+        @media screen and (min-width:768px) {
+            .cycle-list {
+                display: none
+            }
+        }
+    
+        .cycle-list-item {
+            position: relative;
+            padding-left: 32px;
+            padding-right: 8px;
+            counter-increment: section;
+            padding-bottom: 34px
+        }
+    
+        .cycle-list-item--title {
+            margin-bottom: 14px;
+            font-weight: 700;
+            font-size: 16px;
+            letter-spacing: 1px;
+            line-height: 1.5;
+            color: #030303
+        }
+    
+        @media (min-width:320px) {
+            .cycle-list-item--title {
+                font-size: calc(1.33929vw + 11.71429px)
+            }
+        }
+    
+        @media (min-width:768px) {
+            .cycle-list-item--title {
+                font-size: 22px
+            }
+        }
+    
+        .cycle-list-item--title:before {
+            content: "0" counters(section, ".") " ";
+            padding-right: 14px
+        }
+    
+        .cycle-list-item--title:after {
+            content: "";
+            display: block;
+            position: absolute;
+            height: 14px;
+            width: 14px;
+            top: 7px;
+            left: -5px;
+            border-radius: 50%;
+            background: #0eb27f
+        }
+    
+        .cycle-list-item--content {
+            font-size: 16px;
+            line-height: 1.4;
+            color: #828282
+        }
+    
+        @media (min-width:320px) {
+            .cycle-list-item--content {
+                font-size: calc(.44643vw + 14.57143px)
+            }
+        }
+    
+        @media (min-width:768px) {
+            .cycle-list-item--content {
+                font-size: 18px
+            }
+        }
+    
+        .cycle-list-item:before {
+            content: "";
+            display: block;
+            position: absolute;
+            height: 100%;
+            width: 4px;
+            top: 0;
+            left: 0;
+            background: #f0f0f0;
+            transform: translateY(7px)
+        }
+    
+        .cycle-list-item:last-child:before {
+            display: none
+        }
+    
+        .we {
+            background: #f9f9f9
+        }
+    
+        .we-content {
+            display: block;
+            padding-left: 24px;
+            padding-right: 24px;
+            max-width: 1200px;
+            width: 100%;
+            margin: auto
+        }
+    
+        @media screen and (min-width:768px) {
+            .we-content {
+                display: flex;
+                flex-wrap: wrap
+            }
+        }
+    
+        .we-item {
+            display: block;
+            box-shadow: 0 0 0 1px #e7e7e7;
+            border-bottom: 0;
+            text-align: center;
+            min-height: 200px;
+            padding: 16px
+        }
+    
+        @media (min-width:320px) {
+            .we-item {
+                padding: calc(2.68456vw + 7.4094px)
+            }
+        }
+    
+        @media (min-width:767px) {
+            .we-item {
+                padding: calc(-63.15789vw + 512.42105px)
+            }
+        }
+    
+        @media (min-width:786px) {
+            .we-item {
+                padding: calc(6.18557vw - 32.61856px)
+            }
+        }
+    
+        @media (min-width:980px) {
+            .we-item {
+                padding: 28px
+            }
+        }
+    
+        @media screen and (min-width:768px) {
+            .we-item {
+                width: 50%
+            }
+        }
+    
+        @media screen and (min-width:980px) {
+            .we-item {
+                width: 33.33333%
+            }
+        }
+    
+        .we-item__counter {
+            color: #0eb27f;
+            font-size: 78px;
+            line-height: 1;
+            margin-bottom: 16px
+        }
+    
+        @media (min-width:320px) {
+            .we-item__counter {
+                font-size: calc(2.68456vw + 69.4094px)
+            }
+        }
+    
+        @media (min-width:767px) {
+            .we-item__counter {
+                font-size: calc(-63.15789vw + 574.42105px)
+            }
+        }
+    
+        @media (min-width:786px) {
+            .we-item__counter {
+                font-size: calc(6.18557vw + 29.38144px)
+            }
+        }
+    
+        @media (min-width:980px) {
+            .we-item__counter {
+                font-size: 90px
+            }
+        }
+    
+        @media (min-width:320px) {
+            .we-item__counter {
+                margin-bottom: calc(3.13199vw + 5.97763px)
+            }
+        }
+    
+        @media (min-width:767px) {
+            .we-item__counter {
+                margin-bottom: calc(-73.68421vw + 595.15789px)
+            }
+        }
+    
+        @media (min-width:786px) {
+            .we-item__counter {
+                margin-bottom: calc(7.21649vw - 40.72165px)
+            }
+        }
+    
+        @media (min-width:980px) {
+            .we-item__counter {
+                margin-bottom: 30px
+            }
+        }
+    
+        .we-item__title {
+            font-size: 16px;
+            font-weight: 400;
+            margin-bottom: 16px;
+            line-height: 1.3;
+            color: #4f4f4f
+        }
+    
+        @media (min-width:320px) {
+            .we-item__title {
+                font-size: calc(.89485vw + 13.13647px)
+            }
+        }
+    
+        @media (min-width:767px) {
+            .we-item__title {
+                font-size: calc(-21.05263vw + 181.47368px)
+            }
+        }
+    
+        @media (min-width:786px) {
+            .we-item__title {
+                font-size: calc(2.06186vw - .20619px)
+            }
+        }
+    
+        @media (min-width:980px) {
+            .we-item__title {
+                font-size: 20px
+            }
+        }
+    
+        .we-item__img {
+            max-width: 200px;
+            height: 140px;
+            margin: 0 auto 24px
+        }
+    
+        .industries {
+            position: relative;
+            background: #f9f9f9
+        }
+    
+        .industries-content {
+            display: flex;
+            flex-wrap: wrap;
+            max-width: 350px;
+            margin: auto
+        }
+    
+        @media screen and (min-width:600px) {
+            .industries-content {
+                max-width: 700px
+            }
+        }
+    
+        @media screen and (min-width:980px) {
+            .industries-content {
+                max-width: 100%
+            }
+        }
+    
+        .industries-item {
+            display: flex;
+            width: 100%;
+            padding: 7px 14px;
+            color: #0eb27f;
+            border: 3px solid #0eb27f;
+            border-radius: 4px;
+            font-weight: 600;
+            font-size: 15px;
+            line-height: 1.8;
+            align-items: center;
+            background: #fff;
+            transition: color .2s, background .2s
+        }
+    
+        @media (min-width:980px) {
+            .industries-item {
+                padding-left: calc(1.15385vw + 2.69231px)
+            }
+        }
+    
+        @media (min-width:1500px) {
+            .industries-item {
+                padding-left: 20px
+            }
+        }
+    
+        @media (min-width:980px) {
+            .industries-item {
+                padding-right: calc(1.15385vw + 2.69231px)
+            }
+        }
+    
+        @media (min-width:1500px) {
+            .industries-item {
+                padding-right: 20px
+            }
+        }
+    
+        @media (min-width:980px) {
+            .industries-item {
+                padding-top: calc(1.73077vw - 9.96154px)
+            }
+        }
+    
+        @media (min-width:1500px) {
+            .industries-item {
+                padding-top: 16px
+            }
+        }
+    
+        @media (min-width:980px) {
+            .industries-item {
+                padding-bottom: calc(1.73077vw - 9.96154px)
+            }
+        }
+    
+        @media (min-width:1500px) {
+            .industries-item {
+                padding-bottom: 16px
+            }
+        }
+    
+        @media (min-width:980px) {
+            .industries-item {
+                border-width: calc(.19231vw + 1.11538px)
+            }
+        }
+    
+        @media (min-width:1500px) {
+            .industries-item {
+                border-width: 4px
+            }
+        }
+    
+        @media (min-width:980px) {
+            .industries-item {
+                border-radius: calc(1.15385vw - 7.30769px)
+            }
+        }
+    
+        @media (min-width:1500px) {
+            .industries-item {
+                border-radius: 10px
+            }
+        }
+    
+        @media (min-width:980px) {
+            .industries-item {
+                font-size: calc(1.34615vw + 1.80769px)
+            }
+        }
+    
+        @media (min-width:1500px) {
+            .industries-item {
+                font-size: 22px
+            }
+        }
+    
+        .industries-item--wrap {
+            width: 100%;
+            padding: 8px
+        }
+    
+        @media (min-width:980px) {
+            .industries-item--wrap {
+                padding-top: calc(.96154vw - 1.42308px)
+            }
+        }
+    
+        @media (min-width:1500px) {
+            .industries-item--wrap {
+                padding-top: 13px
+            }
+        }
+    
+        @media (min-width:980px) {
+            .industries-item--wrap {
+                padding-bottom: calc(.96154vw - 1.42308px)
+            }
+        }
+    
+        @media (min-width:1500px) {
+            .industries-item--wrap {
+                padding-bottom: 13px
+            }
+        }
+    
+        @media (min-width:980px) {
+            .industries-item--wrap {
+                padding-left: calc(2.5vw - 16.5px)
+            }
+        }
+    
+        @media (min-width:1500px) {
+            .industries-item--wrap {
+                padding-left: 21px
+            }
+        }
+    
+        @media (min-width:980px) {
+            .industries-item--wrap {
+                padding-right: calc(2.5vw - 16.5px)
+            }
+        }
+    
+        @media (min-width:1500px) {
+            .industries-item--wrap {
+                padding-right: 21px
+            }
+        }
+    
+        @media screen and (min-width:600px) {
+            .industries-item--wrap {
+                width: 50%
+            }
+        }
+    
+        @media screen and (min-width:980px) {
+            .industries-item--wrap {
+                width: calc(33.33333% - 1px)
+            }
+        }
+    
+        .industries-icon {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 40px;
+            height: 40px;
+            background: rgba(14, 178, 127, .1);
+            margin-right: 12px;
+            border-radius: 8px;
+            color: #0eb27f;
+            transition: color .2s, background .2s
+        }
+    
+        @media (min-width:980px) {
+            .industries-icon {
+                width: calc(1.92308vw + 21.15385px)
+            }
+        }
+    
+        @media (min-width:1500px) {
+            .industries-icon {
+                width: 50px
+            }
+        }
+    
+        @media (min-width:980px) {
+            .industries-icon {
+                height: calc(1.92308vw + 21.15385px)
+            }
+        }
+    
+        @media (min-width:1500px) {
+            .industries-icon {
+                height: 50px
+            }
+        }
+    
+        @media (min-width:980px) {
+            .industries-icon {
+                margin-right: calc(1.53846vw - 3.07692px)
+            }
+        }
+    
+        @media (min-width:1500px) {
+            .industries-icon {
+                margin-right: 20px
+            }
+        }
+    
+        .industries-icon svg {
+            width: 50%;
+            height: 50%
+        }
+    
+        .industries-item:hover {
+            color: #fff;
+            background: #0eb27f;
+            transition: color .2s, background .2s
+        }
+    
+        .industries-item:hover .industries-icon {
+            background: #fff
+        }
+    
+        .ie .testimonials__item--form {
+            background: url(images/main-bg.jpg) no-repeat 50% 50%;
+            background-size: cover
+        }
+    
+        .testimonials {
+            text-align: center;
+            display: flex;
+            background: #fff;
+            padding-top: 50px
+        }
+    
+        @media (min-width:320px) {
+            .testimonials {
+                padding-top: calc(4.23729vw + 36.44068px)
+            }
+        }
+    
+        @media (min-width:1500px) {
+            .testimonials {
+                padding-top: 100px
+            }
+        }
+    
+        .testimonials .container {
+            display: flex;
+            flex-wrap: wrap
+        }
+    
+        .testimonials__item {
+            width: 100%;
+            margin-bottom: 50px
+        }
+    
+        @media (min-width:320px) {
+            .testimonials__item {
+                margin-bottom: calc(4.23729vw + 36.44068px)
+            }
+        }
+    
+        @media (min-width:1500px) {
+            .testimonials__item {
+                margin-bottom: 100px
+            }
+        }
+    
+        .testimonials__item--form {
+            position: relative
+        }
+    
+        @media screen and (min-width:600px) {
+            .testimonials__item--form {
+                padding: 4%
+            }
+        }
+    
+        .testimonials__item--form-bg {
+            display: none
+        }
+    
+        @supports ((-o-object-fit:cover) or (object-fit:cover)) {
+            .testimonials__item--form-bg {
+                display: block;
+                position: absolute;
+                width: 100%;
+                height: 100%;
+                max-height: 695px;
+                top: 0;
+                left: 0;
+                -o-object-fit: cover;
+                object-fit: cover;
+                -o-object-position: center;
+                object-position: center;
+                z-index: 1
+            }
+        }
+    
+        @media screen and (min-width:1024px) {
+            .testimonials__item {
+                width: 50%
+            }
+        }
+    
+        .testimonials .form-container {
+            margin: auto;
+            position: relative;
+            z-index: 2
+        }
+    
+        .testimonials-slider__title {
+            font-weight: 600;
+            font-size: 26px;
+            margin-bottom: 24px;
+            line-height: 1.3
+        }
+    
+        @media (min-width:375px) {
+            .testimonials-slider__title {
+                font-size: calc(1.23457vw + 21.37037px)
+            }
+        }
+    
+        @media (min-width:1023px) {
+            .testimonials-slider__title {
+                font-size: calc(-800vw + 8218px)
+            }
+        }
+    
+        @media (min-width:1024px) {
+            .testimonials-slider__title {
+                font-size: calc(6.30252vw - 38.53782px)
+            }
+        }
+    
+        @media (min-width:1500px) {
+            .testimonials-slider__title {
+                font-size: 56px
+            }
+        }
+    
+        @media (min-width:1024px) {
+            .testimonials-slider__title {
+                margin-bottom: calc(4.41176vw - 21.17647px)
+            }
+        }
+    
+        @media (min-width:1500px) {
+            .testimonials-slider__title {
+                margin-bottom: 45px
+            }
+        }
+    
+        .testimonials-slider__img {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+            margin: 0 auto 20px
+        }
+    
+        @media (min-width:1024px) {
+            .testimonials-slider__img {
+                margin-bottom: calc(4.62185vw - 27.32773px)
+            }
+        }
+    
+        @media (min-width:1500px) {
+            .testimonials-slider__img {
+                margin-bottom: 42px
+            }
+        }
+    
+        .testimonials-slider__content {
+            width: 100%;
+            font-size: 16px;
+            line-height: 1.4;
+            text-align: center;
+            margin: 0 auto 24px;
+            color: #828282
+        }
+    
+        @media (min-width:375px) {
+            .testimonials-slider__content {
+                font-size: calc(.30864vw + 14.84259px)
+            }
+        }
+    
+        @media (min-width:1023px) {
+            .testimonials-slider__content {
+                font-size: calc(-200vw + 2064px)
+            }
+        }
+    
+        @media (min-width:1024px) {
+            .testimonials-slider__content {
+                font-size: calc(2.10084vw - 5.51261px)
+            }
+        }
+    
+        @media (min-width:1500px) {
+            .testimonials-slider__content {
+                font-size: 26px
+            }
+        }
+    
+        @media (min-width:1024px) {
+            .testimonials-slider__content {
+                margin-bottom: calc(1.68067vw + 6.78992px)
+            }
+        }
+    
+        @media (min-width:1500px) {
+            .testimonials-slider__content {
+                margin-bottom: 32px
+            }
+        }
+    
+        @media screen and (min-width:600px) {
+            .testimonials-slider__content {
+                width: 80%
+            }
+        }
+    
+        .testimonials-slider__info {
+            width: 100%;
+            font-style: italic;
+            font-size: 14px;
+            line-height: 1.3;
+            text-align: center;
+            color: #000
+        }
+    
+        .testimonials-slider .slick-slide {
+            display: flex;
+            flex-direction: column;
+            width: 737px;
+            height: auto;
+            align-items: center
+        }
+    
+        .testimonials-slider .slick-dots {
+            bottom: -70px
+        }
+    
+        .testimonials-slider .slick-dots li {
+            padding: 0 !important;
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            margin: 0 7px
+        }
+    
+        .testimonials-slider .slick-dots li button {
+            padding: 0 !important;
+            border-radius: 50%;
+            background: rgba(14, 178, 127, .15)
+        }
+    
+        .faq {
+            background: #f9f9f9
+        }
+    
+        .faq-list__item {
+            margin-bottom: 10px
+        }
+    
+        @media (min-width:320px) {
+            .faq-list__item {
+                margin-bottom: calc(1.69492vw + 4.57627px)
+            }
+        }
+    
+        @media (min-width:1500px) {
+            .faq-list__item {
+                margin-bottom: 30px
+            }
+        }
+    
+        .faq-question {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background: #f4f4f4;
+            border: 1px solid #d9d9d9;
+            width: 100%;
+            cursor: pointer;
+            padding: 10px 20px
+        }
+    
+        @media (min-width:320px) {
+            .faq-question {
+                padding-top: calc(1.27119vw + 5.9322px)
+            }
+        }
+    
+        @media (min-width:1500px) {
+            .faq-question {
+                padding-top: 25px
+            }
+        }
+    
+        @media (min-width:320px) {
+            .faq-question {
+                padding-bottom: calc(1.27119vw + 5.9322px)
+            }
+        }
+    
+        @media (min-width:1500px) {
+            .faq-question {
+                padding-bottom: 25px
+            }
+        }
+    
+        @media (min-width:320px) {
+            .faq-question {
+                padding-left: calc(.42373vw + 18.64407px)
+            }
+        }
+    
+        @media (min-width:1500px) {
+            .faq-question {
+                padding-left: 25px
+            }
+        }
+    
+        @media (min-width:320px) {
+            .faq-question {
+                padding-right: calc(.42373vw + 18.64407px)
+            }
+        }
+    
+        @media (min-width:1500px) {
+            .faq-question {
+                padding-right: 25px
+            }
+        }
+    
+        .faq-question h4 {
+            padding-right: 30px;
+            font-weight: 600;
+            font-size: 17px;
+            line-height: 28px;
+            text-align: left;
+            margin-bottom: 0;
+            letter-spacing: -.5px;
+            color: #272936
+        }
+    
+        .faq-question__action {
+            display: block;
+            position: relative;
+            flex: none;
+            width: 18px;
+            height: 18px;
+            background: #ccc;
+            border-radius: 50%
+        }
+    
+        .faq-question__action:after,
+        .faq-question__action:before {
+            content: "";
+            position: absolute;
+            width: 1px;
+            height: 50%;
+            top: 50%;
+            left: 50%;
+            background: #fff;
+            transition: transform .3s
+        }
+    
+        .faq-question__action:before {
+            transform: translate(-50%, -50%)
+        }
+    
+        .faq-question__action:after {
+            transform: translate(-50%, -50%) rotate(90deg)
+        }
+    
+        .faq-question--opened .faq-question__action:after,
+        .faq-question--opened .faq-question__action:before {
+            transform: translate(-50%, -50%) rotate(270deg)
+        }
+    
+        .faq-answer {
+            display: block;
+            border: 1px solid #d9d9d9;
+            padding: 2% 4%;
+            font-size: 17px;
+            line-height: 28px;
+            font-weight: 300;
+            color: #979797
+        }
+    
+        .faq-answer p,
+        .faq-answer ul {
+            margin: 10px 0
+        }
+    
+        .faq-answer ul ul {
+            padding-left: 10px
+        }
+    
+        @media (min-width:320px) {
+            .faq-answer ul ul {
+                padding-left: calc(1.69492vw + 4.57627px)
+            }
+        }
+    
+        @media (min-width:1500px) {
+            .faq-answer ul ul {
+                padding-left: 30px
+            }
+        }
+    
+        .faq-answer li {
+            position: relative;
+            margin-bottom: 10px
+        }
+    
+        @media (min-width:320px) {
+            .faq-answer li {
+                margin-bottom: calc(.84746vw + 7.28814px)
+            }
+        }
+    
+        @media (min-width:1500px) {
+            .faq-answer li {
+                margin-bottom: 20px
+            }
+        }
+    
+        .faq-answer li:before {
+            content: "";
+            display: inline-block;
+            position: relative;
+            width: 6px;
+            height: 6px;
+            border-radius: 50%;
+            background: currentColor;
+            bottom: 3px;
+            margin-right: 6px
+        }
+       
+    
+        .allow-contact {
+            margin: 0 0 28px;
+            font-size: 12px;
+        }
+    
+        .testimonials .allow-contact {
+            margin: 0 0 12px;
+        }
+    
+        .checkbox__input {
+            display: none;
+        }
+    
+        .checkbox__input:checked+.checkbox__label::after {
+            transform: scale(1.5);
+        }
+    
+        .checkbox__label {
+            display: inline-flex;
+            align-items: center;
+            position: relative;
+            cursor: pointer;
+            color: #fff;
+            width: 100%;
+            gap: 10px;
+            font-size: 16px;
+        }
+    
+        .checkbox__label::before {
+            content: "";
+            align-self: flex-start;
+            flex: 0 0 20px;
+            height: 20px;
+            background-color: #fff;
+            border-radius: 4px;
+            border: 2px solid #f1f1f1cd;
+        }
+    
+        .checkbox__label::after {
+            transition: transform 0.5s ease 0s;
+            content: "\2713";
+            position: absolute;
+            transform: scale(0);
+            color: #44c79f;
+            left: 8px;
+            top: 0;
+        }
+    
+        .testimonials .allow-contact {
+            text-align: initial;
+        }
+    
+        .footer {
+            font-weight: 400;
+            color: #fff
+        }
+    
+        .footer__title {
+            font-size: 20px;
+            line-height: 1.1;
+            margin-bottom: 25px
+        }
+    
+        .footer__text {
+            font-size: 15px;
+            line-height: 1.3
+        }
+    
+        @media (min-width: 768px) {
+            .footer__text {
+                font-size: 15px
+            }
+        }
+    
+        @media (min-width: 1024px) {
+            .footer__text {
+                font-size: calc(.42017vw + 10.69748px)
+            }
+        }
+    
+        @media (min-width: 1500px) {
+            .footer__text {
+                font-size: 17px
+            }
+        }
+    
+        .footer__content {
+            background: #202020;
+            padding-top: 32px;
+            padding-bottom: 32px
+        }
+    
+        @media (min-width: 375px) {
+            .footer__content {
+                padding-top: calc(2.03562vw + 24.36641px)
+            }
+        }
+    
+        @media (min-width: 768px) {
+            .footer__content {
+                padding-top: calc(3.90625vw + 10px)
+            }
+        }
+    
+        @media (min-width: 1024px) {
+            .footer__content {
+                padding-top: calc(6.30252vw - 14.53782px)
+            }
+        }
+    
+        @media (min-width: 1500px) {
+            .footer__content {
+                padding-top: 80px
+            }
+        }
+    
+        @media (min-width: 375px) {
+            .footer__content {
+                padding-bottom: calc(2.03562vw + 24.36641px)
+            }
+        }
+    
+        @media (min-width: 768px) {
+            .footer__content {
+                padding-bottom: calc(3.90625vw + 10px)
+            }
+        }
+    
+        @media (min-width: 1024px) {
+            .footer__content {
+                padding-bottom: 50px
+            }
+        }
+    
+        .footer__content .container {
+            display: flex
+        }
+    
+        .footer__content-item {
+            display: block;
+            margin-right: 16px
+        }
+    
+        .footer__content-item:first-child {
+            flex-basis: 40%;
+            margin-right: 40px
+        }
+    
+        .footer__content-item:nth-child(2) {
+            flex-basis: 25%
+        }
+    
+        .footer__content-item:nth-child(3) {
+            flex-basis: 20%
+        }
+    
+        .footer__content-item:nth-child(4) {
+            flex-basis: 15%
+        }
+    
+        @media screen and (max-width: 1024px) {
+            .footer__content-item {
+                flex: 1 1 25%
+            }
+    
+            .footer__content-item:first-child {
+                flex: 1 1 50%
+            }
+    
+            .footer__content-item:nth-child(2) {
+                display: none
+            }
+        }
+    
+        @media screen and (max-width: 767px) {
+            .footer__content-item {
+                flex: 1 1 50%
+            }
+    
+            .footer__content-item:nth-child(-n+2) {
+                display: none
+            }
+        }
+    
+        .footer__list {
+            list-style: none
+        }
+    
+        .footer__list-item {
+            display: flex;
+            align-items: center;
+            margin-bottom: 12px;
+            font-size: 14px
+        }
+    
+        @media (min-width: 375px) {
+            .footer__list-item {
+                margin-bottom: calc(1.02041vw + 8.17347px)
+            }
+        }
+    
+        @media (min-width: 767px) {
+            .footer__list-item {
+                margin-bottom: calc(-400vw + 3084px)
+            }
+        }
+    
+        @media (min-width: 768px) {
+            .footer__list-item {
+                margin-bottom: 12px
+            }
+        }
+    
+        @media (min-width: 1024px) {
+            .footer__list-item {
+                margin-bottom: calc(.84034vw + 3.39496px)
+            }
+        }
+    
+        @media (min-width: 1500px) {
+            .footer__list-item {
+                margin-bottom: 16px
+            }
+        }
+    
+        @media (min-width: 375px) {
+            .footer__list-item {
+                font-size: calc(.5102vw + 12.08673px)
+            }
+        }
+    
+        @media (min-width: 767px) {
+            .footer__list-item {
+                font-size: calc(-200vw + 1550px)
+            }
+        }
+    
+        @media (min-width: 768px) {
+            .footer__list-item {
+                font-size: 14px
+            }
+        }
+    
+        @media (min-width: 1024px) {
+            .footer__list-item {
+                font-size: calc(.42017vw + 9.69748px)
+            }
+        }
+    
+        @media (min-width: 1500px) {
+            .footer__list-item {
+                font-size: 16px
+            }
+        }
+    
+        .footer__list-icon {
+            flex: none;
+            width: 22px;
+            height: 22px;
+            margin-right: 18px
+        }
+    
+        @media (min-width: 375px) {
+            .footer__list-icon {
+                width: calc(1.02041vw + 18.17347px)
+            }
+        }
+    
+        @media (min-width: 767px) {
+            .footer__list-icon {
+                width: calc(-800vw + 6162px)
+            }
+        }
+    
+        @media (min-width: 768px) {
+            .footer__list-icon {
+                width: 18px
+            }
+        }
+    
+        @media (min-width: 1024px) {
+            .footer__list-icon {
+                width: calc(1.68067vw + .78992px)
+            }
+        }
+    
+        @media (min-width: 1500px) {
+            .footer__list-icon {
+                width: 26px
+            }
+        }
+    
+        @media (min-width: 375px) {
+            .footer__list-icon {
+                height: calc(1.02041vw + 18.17347px)
+            }
+        }
+    
+        @media (min-width: 767px) {
+            .footer__list-icon {
+                height: calc(-800vw + 6162px)
+            }
+        }
+    
+        @media (min-width: 768px) {
+            .footer__list-icon {
+                height: 18px
+            }
+        }
+    
+        @media (min-width: 1024px) {
+            .footer__list-icon {
+                height: calc(1.68067vw + .78992px)
+            }
+        }
+    
+        @media (min-width: 1500px) {
+            .footer__list-icon {
+                height: 26px
+            }
+        }
+    
+        @media (min-width: 375px) {
+            .footer__list-icon {
+                margin-right: calc(2.04082vw + 10.34694px)
+            }
+        }
+    
+        @media (min-width: 767px) {
+            .footer__list-icon {
+                margin-right: calc(-1200vw + 9230px)
+            }
+        }
+    
+        @media (min-width: 768px) {
+            .footer__list-icon {
+                margin-right: 14px
+            }
+        }
+    
+        @media (min-width: 1024px) {
+            .footer__list-icon {
+                margin-right: calc(2.52101vw - 11.81513px)
+            }
+        }
+    
+        @media (min-width: 1500px) {
+            .footer__list-icon {
+                margin-right: 26px
+            }
+        }
+    
+        .footer__copy {
+            display: none;
+            background: #141414;
+            padding-bottom: 12px;
+            padding-top: 12px
+        }
+    
+        @media (min-width: 768px) {
+            .footer__copy {
+                padding-bottom: calc(1.63934vw - .59016px)
+            }
+        }
+    
+        @media (min-width: 1500px) {
+            .footer__copy {
+                padding-bottom: 24px
+            }
+        }
+    
+        @media (min-width: 768px) {
+            .footer__copy {
+                padding-top: calc(1.63934vw - .59016px)
+            }
+        }
+    
+        @media (min-width: 1500px) {
+            .footer__copy {
+                padding-top: 24px
+            }
+        }
+    
+        @media screen and (min-width: 768px) {
+            .footer__copy {
+                display: block
+            }
+        }
+    
+        .footer__copy .container {
+            display: flex;
+            align-items: center
+        }
+    
+        .footer__copy-text {
+            font-size: 14px;
+            line-height: 1.3
+        }
+    
+        @media (min-width: 768px) {
+            .footer__copy-text {
+                font-size: calc(.27322vw + 11.90164px)
+            }
+        }
+    
+        @media (min-width: 1500px) {
+            .footer__copy-text {
+                font-size: 16px
+            }
+        }
+    
+        .footer a {
+            color: inherit;
+            text-decoration: none;
+            white-space: nowrap;
+        }
+    
+        .footer a:hover {
+            text-decoration: underline
+        }
+    
+        .lazy-video-preview:hover {
+            cursor: pointer
+        }
+    
+        @media screen and (max-width: 768px) {
+    
+            .footer__content .container {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                gap: 30px;
+            }
+    
+            .footer__title {
+                text-align: center;
+            }
+    
+            .footer__content-item:last-child .footer__list {
+                display: flex;
+                gap: 20px;
+                justify-content: center;
+            }
+    
+            .footer__content-item:last-child .footer__list-icon {
+                margin-right: 8px;
+            }
+    
+        }
+    </style>
+</head>
+<body>
+    
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P7PLSCDL" height="0" width="0"
+            style="display:none;visibility:hidden"></iframe></noscript>
+   
+    
+    <script>
+        var screen_resolution = screen.width + 'x' + screen.height;
+        var obj_date = new Date();
+        obj_date.setTime(obj_date.getTime() + 1000 * 60 * 60 * 24 * 365);
+        document.cookie = 'screen_resolution=' + screen_resolution + '; expires=' + obj_date.toGMTString() + '; path=/';
+    </script>
+<header id="header" class="header fixed-top">
+    <div class="container container-fluid container-xl d-flex align-items-center justify-content-between">
+
+        <a href="index.html" class="logo d-flex align-items-center">
+            <img src="images/dc_logo.png" alt="">
+            <span style="font-size: 21px;">DCDIUM Technologies</span>
+        </a>
+
+        <nav id="navbar" class="navbar">
+            <ul>
+                <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+                <li class="dropdown">
+                    <a class="nav-link scrollto" href="#">Services</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="software.html">Software Development</a></li>
+                        <li><a href="digital-marketing.html">Digital Marketing</a></li>
+                        <li><a href="digital-marketing.html">Cyber Security</a></li>
+                        <li><a href="digital-marketing.html">ManPower Consultncy</a></li>
+                    </ul>
+                </li>
+                <li><a class="nav-link scrollto" href="#about">About</a></li>
+                <!-- <li><a class="nav-link scrollto" href="#team">Team</a></li> -->
+                <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+                <li><a class="getstarted scrollto" href="#contact">Get Started</a></li>
+            </ul>
+            <i class="bi bi-list mobile-nav-toggle"></i>
+        </nav><!-- .navbar -->
+
+    </div>
+</header><!-- End Header -->
+
+<section class="main">
+    <picture>
+        <source srcset="images/bg-main-7bju6pucgo80rtrra76ftzsn46nxhvky0egmsqza7mg.jpg.webp" media="(max-width: 768px)"
+            type="image/webp">
+        <source srcset="images/bg-main-7bju6pucgo80rtrra76ftzsn46nxhvky0egmsqza7mg.jpg" media="(max-width: 768px)">
+        <source srcset="images/bg-main-7bju6pudbuwvg6stf8ylpo372ns6o249vhfu4picek0.jpg.webp" media="(max-width: 1024px)"
+            type="image/webp">
+        <source srcset="images/bg-main-7bju6pudbuwvg6stf8ylpo372ns6o249vhfu4picek0.jpg" media="(max-width: 1024px)">
+        <source srcset="images/bg-main-7bju6pugd0butgeiwx76aj44xbp2rozxe9v1skd22tg.jpg.webp" type="image/webp">
+        <img class="main__bg" src="images/bg-main-7bju6pugd0butgeiwx76aj44xbp2rozxe9v1skd22tg.jpg" alt="VironIT Team">
+    </picture>
+
+    <div class="container">
+        <div class="main__info">
+            <h1 class="main__title">DCDIUM Technology is an IT Service and Consulting Company</h1>
+            <p class="main__content">We provide custom software development and IT outsourcing services. Our
+                developers build custom software for individuals, startups, and small to medium business.</p>
+        </div>
+
+        <div class="form-container">
+            <form class="tellus-form tellus-form--short main-ajax-contact-short" name="main-ajax-contact"
+                action="/ajax/submit.php" method="post">
+                <input type="hidden" name="form_id" class="form_id" value="main-page-short">
+                <h2 class="tellus-form__title">Need a Custom Software?<br>Tell us about Your project</h2>
+                <input type="text" placeholder="*Name" class="tellus-form__input contact_name" name="contact_name"
+                    tabindex="1">
+                <input type="text" placeholder="*Email" class="tellus-form__input contact_email" name="contact_email"
+                    tabindex="2">
+                <textarea placeholder="*Describe your idea"
+                    class="tellus-form__input tellus-form__input--textarea contact_msg" name="contact_msg"
+                    tabindex="4"></textarea>
+                <div class="alert alert-danger" style="display:none">
+                    <svg width="11" height="11">
+                        <use xlink:href="#ban"></use>
+                    </svg>
+                    <span>Please check if you've filled all the fields with valid information. Thank you.</span>
+                </div>
+                <div class="alert alert-success main-form-response" style="display:none">
+                    <svg width="11" height="11">
+                        <use xlink:href="#check"></use>
+                    </svg>
+                    <span>Thank you!! Your message has been sent successfully.</span>
+                </div>
+
+                <button type="submit" name="submit" class="tellus-form__submit main-ajax-contact-short-btn"
+                    tabindex="5">
+                    Get a FREE Quote </button>
+            </form>
+        </div>
+    </div>
+</section><svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48" class="d-none">
+    <symbol id="ban" fill="currentColor" viewBox="0 0 512 512">
+        <path
+            d="M256 8C119.034 8 8 119.033 8 256s111.034 248 248 248 248-111.034 248-248S392.967 8 256 8zm130.108 117.892c65.448 65.448 70 165.481 20.677 235.637L150.47 105.216c70.204-49.356 170.226-44.735 235.638 20.676zM125.892 386.108c-65.448-65.448-70-165.481-20.677-235.637L361.53 406.784c-70.203 49.356-170.226 44.736-235.638-20.676z">
+        </path>
+    </symbol>
+    <symbol id="bars" fill="currentColor" viewBox="0 0 448 512">
+        <path
+            d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z">
+        </path>
+    </symbol>
+    <symbol id="check" fill="currentColor" viewBox="0 0 512 512">
+        <path
+            d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z">
+        </path>
+    </symbol>
+    <symbol id="mobile" fill="currentColor" viewBox="0 0 320 512">
+        <path
+            d="M272 0H48C21.5 0 0 21.5 0 48v416c0 26.5 21.5 48 48 48h224c26.5 0 48-21.5 48-48V48c0-26.5-21.5-48-48-48zM160 480c-17.7 0-32-14.3-32-32s14.3-32 32-32 32 14.3 32 32-14.3 32-32 32zm112-108c0 6.6-5.4 12-12 12H60c-6.6 0-12-5.4-12-12V60c0-6.6 5.4-12 12-12h200c6.6 0 12 5.4 12 12v312z">
+        </path>
+    </symbol>
+    <symbol id="envelop" fill="currentColor" viewBox="0 0 512 512">
+        <path
+            d="M464 64H48C21.49 64 0 85.49 0 112v288c0 26.51 21.49 48 48 48h416c26.51 0 48-21.49 48-48V112c0-26.51-21.49-48-48-48zm0 48v40.805c-22.422 18.259-58.168 46.651-134.587 106.49-16.841 13.247-50.201 45.072-73.413 44.701-23.208.375-56.579-31.459-73.413-44.701C106.18 199.465 70.425 171.067 48 152.805V112h416zM48 400V214.398c22.914 18.251 55.409 43.862 104.938 82.646 21.857 17.205 60.134 55.186 103.062 54.955 42.717.231 80.509-37.199 103.053-54.947 49.528-38.783 82.032-64.401 104.947-82.653V400H48z">
+        </path>
+    </symbol>
+    <symbol id="times" fill="currentColor" viewBox="0 0 352 512">
+        <path
+            d="M242.72 256l100.07-100.07c12.28-12.28 12.28-32.19 0-44.48l-22.24-22.24c-12.28-12.28-32.19-12.28-44.48 0L176 189.28 75.93 89.21c-12.28-12.28-32.19-12.28-44.48 0L9.21 111.45c-12.28 12.28-12.28 32.19 0 44.48L109.28 256 9.21 356.07c-12.28 12.28-12.28 32.19 0 44.48l22.24 22.24c12.28 12.28 32.2 12.28 44.48 0L176 322.72l100.07 100.07c12.28 12.28 32.2 12.28 44.48 0l22.24-22.24c12.28-12.28 12.28-32.19 0-44.48L242.72 256z">
+        </path>
+    </symbol>
+    <symbol id="facebook" fill="currentColor" viewBox="0 0 320 512">
+        <path
+            d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z">
+        </path>
+    </symbol>
+    <symbol id="twitter" fill="currentColor" viewBox="0 0 512 512">
+        <path
+            d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z">
+        </path>
+    </symbol>
+    <symbol id="linkedin" fill="currentColor" viewBox="0 0 448 512">
+        <path
+            d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z">
+        </path>
+    </symbol>
+    <symbol id="marker" fill="currentColor" viewBox="0 0 384 512">
+        <path
+            d="M172.268 501.67C26.97 291.031 0 269.413 0 192 0 85.961 85.961 0 192 0s192 85.961 192 192c0 77.413-26.97 99.031-172.268 309.67-9.535 13.774-29.93 13.773-39.464 0zM192 272c44.183 0 80-35.817 80-80s-35.817-80-80-80-80 35.817-80 80 35.817 80 80 80z">
+        </path>
+    </symbol>
+
+    <symbol id="rocket" fill="none" stroke="currentColor" viewBox="0 0 60 60">
+        <path clip-rule="evenodd"
+            d="M37.021 22.8566c-2.4994-2.4993-2.4994-6.5516 0-9.0509 2.4994-2.4994 6.5516-2.4994 9.051 0 2.4993 2.4993 2.4993 6.5516 0 9.0509-2.4994 2.4994-6.5516 2.4994-9.051 0zM12.9316 24.6655l22.4 22.4-22.4-22.4z"
+            stroke="#0EB27F" stroke-width="4.2667" stroke-linecap="round"></path>
+        <path d="M2.985 56.8939l8.8809-8.7611M2.2659 44.9329l3.2-3.2M15.0667 57.7327l3.2-3.2" stroke="#0EB27F"
+            stroke-width="4.2667" stroke-linecap="round"></path>
+        <path clip-rule="evenodd"
+            d="M34.2656 47.0661L55.8578 25.474a6.4003 6.4003 0 001.8745-4.5255V8.6661c0-3.5346-2.8654-6.4-6.4-6.4H39.0499a6.4001 6.4001 0 00-4.5255 1.8745L12.9323 25.7328H4.8408c-.9503 0-1.4262 1.1489-.7543 1.8209l28.3582 28.3582c.672.6719 1.8209.196 1.8209-.7543v-8.0915z"
+            stroke-width="4.2667" stroke-linecap="round"></path>
+    </symbol>
+    <symbol id="mobile2" viewBox="0 0 44 64" fill="none">
+        <g stroke-width="4.3" stroke-linecap="round">
+            <g stroke="currentColor">
+                <rect x="2.8" y="2.1" width="38.4" height="59.7" rx="6.4"></rect>
+                <path d="M16 11h12"></path>
+            </g>
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M22 55a3 3 0 100-6 3 3 0 000 6z" fill="currentColor">
+            </path>
+        </g>
+    </symbol>
+    <symbol id="wallet" viewBox="0 0 60 60" fill="none">
+        <g stroke="currentColor" stroke-width="4.3" stroke-linecap="round">
+            <path
+                d="M55.6 27.9v-8.6c0-3.5-2.9-6.4-6.4-6.4H8.7a6.4 6.4 0 00-6.4 6.4v32c0 3.6 2.8 6.4 6.4 6.4h40.5c3.5 0 6.4-2.8 6.4-6.4V45">
+            </path>
+            <path clip-rule="evenodd"
+                d="M36.4 32.1c0-2.3 2-4.2 4.3-4.2h12.8c2.3 0 4.2 1.9 4.2 4.2v8.6c0 2.3-1.9 4.2-4.2 4.2H40.7c-2.4 0-4.3-1.9-4.3-4.2V32z">
+            </path>
+            <path d="M18.3 13l18.4-9.8c1-.5 2.3-.2 2.9.8l5.3 9"></path>
+        </g>
+        <path fill-rule="evenodd" clip-rule="evenodd" d="M45 38.5a2.1 2.1 0 100-4.2 2.1 2.1 0 000 4.2z"
+            fill="currentColor"></path>
+    </symbol>
+    <symbol id="man" viewBox="0 0 61 62" fill="none">
+        <path fill-rule="evenodd" clip-rule="evenodd"
+            d="M20.5 4.4h17l2.2 6.4L36 8.9h-1.1c-1 .7-3.5 1.9-5.9 1.9-2.4 0-4.8-1.2-5.9-1.8-.3-.2-.7-.2-1 0l-3.8 1.8 2.2-6.4z"
+            fill="currentColor"></path>
+        <g stroke="currentColor" stroke-width="4.3" stroke-linecap="round">
+            <path clip-rule="evenodd"
+                d="M17.9 15A11.2 11.2 0 0129 2.3v0c6.8 0 12 6 11.1 12.7l-1.4 10.8a9.7 9.7 0 01-9.7 8.5v0c-4.9 0-9-3.6-9.7-8.5L18 15z">
+            </path>
+            <path d="M16.2 38.5L6.2 41c-1.7.5-3 1.9-3.2 3.6l-.8 5.9a6.4 6.4 0 006.4 7.2h31"></path>
+            <path clip-rule="evenodd" d="M47.1 59.9a11.7 11.7 0 100-23.5 11.7 11.7 0 000 23.5z"></path>
+            <path d="M42.9 48.1l3 3c0 .2.2.1.3 0l5.2-6.2"></path>
+        </g>
+    </symbol>
+    <symbol id="integration" viewBox="0 0 60 60" fill="none">
+        <path
+            d="M21.2 12.5A23.5 23.5 0 007.1 39.3m9.6 14.3a23.4 23.4 0 0026.4.1M53 39a23.6 23.6 0 00-14-26.4 M30 19.3a8.5 8.5 0 100-17 8.5 8.5 0 000 17zM49.2 55.6a8.5 8.5 0 100-17 8.5 8.5 0 000 17zM10.8 55.6a8.5 8.5 0 100-17 8.5 8.5 0 000 17z"
+            stroke="#0EB27F" stroke-width="4.3" stroke-linecap="round"></path>
+    </symbol>
+    <symbol id="brain" viewBox="0 0 56 64" fill="none">
+        <path
+            d="M12.5 48.3a8.5 8.5 0 1015.5 5M6.8 20.3a8.5 8.5 0 004.1 16M15.2 8.5a8.5 8.5 0 00-6 14.7M28 8.5a6.4 6.4 0 00-12.8 0M5.4 34.4A12.7 12.7 0 0011 54.8M43.5 48.3a8.5 8.5 0 11-15.5 5M49.2 20.3a8.5 8.5 0 01-4.1 16M40.8 8.5a8.5 8.5 0 016 14.7M28 8.5a6.4 6.4 0 0112.8 0M50.6 34.4A12.7 12.7 0 0145 54.8M28 9.4v47.1M28 36.3a6.4 6.4 0 00-9-5.9M32.3 40.5c-2.4 0-4.3 2-4.3 4.3M35.5 19.2a7.5 7.5 0 00-7.5 7.5"
+            stroke="#0EB27F" stroke-width="4.3" stroke-linecap="round"></path>
+    </symbol>
+
+    <symbol id="webDev" viewBox="0 0 114 103" fill="none">
+        <g stroke="currentColor" stroke-width="7.6" stroke-linecap="round">
+            <rect x="79.8" y="46" width="30.4" height="53.2" rx="7.6"></rect>
+            <path
+                d="M34.2 99.2h30.4M95 46V15.6c0-6.3-5.1-11.4-11.4-11.4H15.2C8.9 4.2 3.8 9.3 3.8 15.6v60.8c0 6.3 5.1 11.4 11.4 11.4h64.6">
+            </path>
+        </g>
+    </symbol>
+    <symbol id="gameDev" viewBox="0 0 26 25" fill="none">
+        <g stroke="currentColor" stroke-width="2" stroke-linecap="round">
+            <path clip-rule="evenodd"
+                d="M1.431 13.383a5.77 5.77 0 015.761-5.45H18.81a5.77 5.77 0 015.761 5.45l.364 6.549a3.412 3.412 0 01-3.407 3.601v0A3.412 3.412 0 0118.29 21.2l-.556-1.667a1.755 1.755 0 00-1.665-1.2H9.933c-.756 0-1.427.484-1.666 1.2l-.558 1.67a3.411 3.411 0 01-3.236 2.33v0a3.411 3.411 0 01-3.406-3.6l.364-6.55z">
+            </path>
+            <path
+                d="M13 7.933V3.6c0-.957.781-1.733 1.739-1.733v0c.951 0 1.728.776 1.728 1.728v0c0 .957.776 1.738 1.733 1.738v0c.957 0 1.733-.776 1.733-1.733V1.867M6.933 12.267l-.004 3.466M5.201 14h3.467">
+            </path>
+        </g>
+        <path fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"
+            d="M19.933 12.267a.867.867 0 11-1.733 0 .867.867 0 011.733 0zm0 3.466a.867.867 0 11-1.733 0 .867.867 0 011.733 0zm-2.6-.866a.867.867 0 100-1.734.867.867 0 000 1.734zM21.668 14a.867.867 0 11-1.734 0 .867.867 0 011.734 0z">
+        </path>
+    </symbol>
+    <symbol id="globe" viewBox="0 0 28 22" fill="none">
+        <g stroke="currentColor" stroke-width="2" stroke-linecap="round">
+            <path d="M1.87 20.53h24.26M14 17.07v3.46"></path>
+            <path clip-rule="evenodd" d="M14 17.07a7.8 7.8 0 100-15.6 7.8 7.8 0 000 15.6z"></path>
+            <path clip-rule="evenodd"
+                d="M14 17.07c1.91 0 3.47-3.5 3.47-7.8 0-4.31-1.56-7.8-3.47-7.8-1.91 0-3.47 3.49-3.47 7.8 0 4.3 1.56 7.8 3.47 7.8z">
+            </path>
+            <path
+                d="M7.93 13.17s3.04-.87 6.07-.87c3.03 0 6.07.87 6.07.87M7.93 5.37s3.04.86 6.07.86c3.03 0 6.07-.86 6.07-.86">
+            </path>
+        </g>
+    </symbol>
+    <symbol id="lightning" viewBox="0 0 18 26" fill="none">
+        <path clip-rule="evenodd"
+            d="M7.27 24.81c0 .1.12.14.18.06l9.32-13.48a.1.1 0 00-.08-.15h-5.44a.5.5 0 01-.5-.5l-.02-9.55a.1.1 0 00-.18-.06L1.23 14.6a.1.1 0 00.08.16h5.44c.28 0 .5.22.5.5l.02 9.55z"
+            stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
+    </symbol>
+    <symbol id="vrDev" viewBox="0 0 26 24" fill="none">
+        <g stroke="currentColor" stroke-width="2" stroke-linecap="round">
+            <path d="M1.73 19.8L13 15.03l11.27 4.77M13 1.6v13.43M8.67 4.2L13 1.6l4.33 2.6"></path>
+            <path d="M1.73 15.03v4.77l4.34 2.6M24.27 15.03v4.77l-4.34 2.6"></path>
+        </g>
+    </symbol>
+    <symbol id="satellite" viewBox="0 0 26 26" fill="none">
+        <g stroke="currentColor" stroke-width="2" stroke-linecap="round">
+            <path clip-rule="evenodd" d="M17.33 15.6a6.93 6.93 0 100-13.87 6.93 6.93 0 000 13.87z"></path>
+            <path d="M1.73 24.27L18.2 7.8M13.87 24.27l4.33-8.67M1.73 12.13l8.67-4.76"></path>
+        </g>
+    </symbol>
+
+    <symbol id="desktop" viewBox="0 0 30 30" fill="currentColor">
+        <path fill-rule="evenodd" clip-rule="evenodd"
+            d="M27 19.5c0 .8-.7 1.5-1.5 1.5h-21c-.8 0-1.5-.7-1.5-1.5v-15C3 3.7 3.7 3 4.5 3h21c.8 0 1.5.7 1.5 1.5v15zM27 0H3a3 3 0 00-3 3v18a3 3 0 003 3h9c.8 0 1.5.7 1.5 1.5S12.8 27 12 27H7.5c-.8 0-1.5.7-1.5 1.5S6.7 30 7.5 30h15c.8 0 1.5-.6 1.5-1.5 0-.8-.7-1.5-1.5-1.5H18c-.8 0-1.5-.6-1.5-1.5 0-.8.7-1.5 1.5-1.5h9a3 3 0 003-3V3a3 3 0 00-3-3z">
+        </path>
+    </symbol>
+    <symbol id="code" viewBox="0 0 30 21" fill="currentColor">
+        <path fill-rule="evenodd" clip-rule="evenodd"
+            d="M8.22 5.52c.6-.62.6-1.63 0-2.26l-.02-.02a1.51 1.51 0 00-2.2 0L.46 8.97c-.6.63-.6 1.64 0 2.27l5.56 5.73c.6.62 1.58.62 2.19 0l.02-.02c.6-.63.6-1.64 0-2.27l-3.34-3.44c-.6-.63-.6-1.64 0-2.27l3.34-3.45zm21.33 3.45l-5.56-5.73a1.51 1.51 0 00-2.19 0l-.02.02c-.6.63-.6 1.64 0 2.26l3.34 3.45c.6.63.6 1.64 0 2.27l-3.34 3.44c-.6.63-.6 1.64 0 2.27l.02.02c.6.62 1.6.62 2.2 0l5.55-5.73c.6-.63.6-1.64 0-2.27zm-9.32-6.7l-8 17.5c-.26.55-.71 1.23-1.3 1.23h-.03c-1.14 0-1.88-1.58-1.38-2.65l7.95-17.33c.26-.55 1.22-.98 1.22-.98V0c1.55 0 2.04 1.2 1.54 2.27z">
+        </path>
+    </symbol>
+    <symbol id="technologies" viewBox="0 0 30 30" fill="currentColor">
+        <path fill-rule="evenodd" clip-rule="evenodd"
+            d="M24 17.814c-1.655 0-3-1.346-3-3 0-1.655 1.345-3 3-3 1.654 0 2.999 1.345 2.999 3 0 1.654-1.345 3-3 3zm-13.29 2.512c-.8-1.024-1.714-1.779-3.214-2.114v-6.423c1.5-.36 2.583-1.19 3.388-2.326l7.233 4.177a5.912 5.912 0 00.014 2.416l-7.42 4.27zm-4.709 6.675c-1.654 0-3-1.346-3-3 .001-1.655 1.346-3 3-3 1.655 0 3 1.345 3 3 0 1.654-1.345 3-3 3zM2.997 6c0-1.655 1.5-3.001 3-3.001 4.498 0 4.498 6 0 6-1.5 0-3-1.345-3-3zm21.002 2.811c-1.831 0-3.45.839-4.55 2.132l-7.51-4.337C12.32 2.878 9.405 0 6.003 0A6.002 6.002 0 000 6c0 2.793 1.497 5.118 4.496 5.789v6.423C1.496 18.88 0 21.207 0 24c0 3.314 2.688 6 6 6 3.543 0 6.487-3.108 5.91-6.901l7.582-4.364c1.1 1.263 2.701 2.078 4.507 2.078a6 6 0 000-12z">
+        </path>
+    </symbol>
+    <symbol id="banking-icon" viewBox="0 0 24 22" fill="currentColor">
+        <path fill-rule="evenodd" clip-rule="evenodd"
+            d="M2.4 3.7V2.4c0-1.3 1-2.4 2.4-2.4h14.4c1.3 0 2.4 1 2.4 2.4v1.3c0 .6-.5 1.2-1.2 1.2s-1.2-.6-1.2-1.2c0-.7-.5-1.3-1.2-1.3H6c-.7 0-1.2.6-1.2 1.3 0 .6-.5 1.2-1.2 1.2s-1.2-.6-1.2-1.2zm12 11c0 1.3-1 2.4-2.4 2.4-1.3 0-2.4-1-2.4-2.4s1-2.5 2.4-2.5c1.3 0 2.4 1.1 2.4 2.5zm7.2-2.9l-2-2c2 0 2 .4 2 2zm-2 7.8l2-2c0 2-.5 2-2 2zm-11.8 0l-4.8-5 4.8-4.8h8.4l4.8 4.9-4.8 4.9H7.8zm-5.4-2l2 2c-2 0-2-.5-2-2zm2-7.8l-2 2c0-2 .5-2 2-2zm17.2-2.5H2.4C1.1 7.3 0 8.4 0 9.8v9.8C0 20.9 1 22 2.4 22h19.2c1.3 0 2.4-1 2.4-2.4V9.8c0-1.4-1-2.5-2.4-2.5z">
+        </path>
+    </symbol>
+    <symbol id="megaphone" viewBox="0 0 24 22" fill="currentColor">
+        <path fill-rule="evenodd" clip-rule="evenodd"
+            d="M21.6 16.6L3.4 13c-.6-.1-1-.6-1-1.2v-1.4c0-.6.4-1 1-1.2l18.2-3.7v11.2zm-12 1c0 .7-.7 1.3-1.4 1.2l-2.4-.6c-.6 0-1-.6-1-1.1v-1.5l4.8 1v1zm12-16.4V3L1.9 7C1 7.2 0 8.2 0 9.3v3.4c0 1.1.8 2.1 2 2.4h.4V18c0 1.2.8 2.2 2 2.4l4.7 1c1.5.3 2.9-.9 2.9-2.4v-1.9l9.6 2v1.7c0 .7.5 1.2 1.2 1.2s1.2-.5 1.2-1.2V1.2c0-.7-.5-1.2-1.2-1.2s-1.2.5-1.2 1.2z">
+        </path>
+    </symbol>
+    <symbol id="bag" viewBox="0 0 24 24" fill="currentColor">
+        <path fill-rule="evenodd" clip-rule="evenodd"
+            d="M20.2 21.6H3.8c-.7 0-1.3-.6-1.2-1.4L4 10.6c0-.6.6-1 1.2-1H6V12a1.2 1.2 0 002.4 0V9.6h7.2V12a1.2 1.2 0 002.4 0V9.6h.8c.6 0 1.1.4 1.2 1l1.4 9.6c.1.8-.5 1.4-1.2 1.4zM8.4 6c0-2 1.6-3.6 3.6-3.6s3.6 1.2 3.6 3.6v1.2H8.4V6zM24 21.3l-1.7-12C22 8 21 7.2 19.9 7.2H18V6c0-3.6-2.7-6-6-6a6 6 0 00-6 6v1.2H4.5c-1.2 0-2.6.9-2.8 2L0 21.3C-.2 22.8 1 24 2.4 24h19.2c1.5 0 2.6-1.3 2.4-2.7z">
+        </path>
+    </symbol>
+    <symbol id="game-controller" viewBox="0 0 24 24" fill="currentColor">
+        <path fill-rule="evenodd" clip-rule="evenodd"
+            d="M21.6 13.2c0-.7-.5-1.2-1.2-1.2H3.6c-.7 0-1.2.5-1.2 1.2v7.2c0 .7.5 1.2 1.2 1.2h16.8c.7 0 1.2-.5 1.2-1.2v-7.2zM24 12v9.6c0 1.3-1 2.4-2.4 2.4H2.4C1.1 24 0 23 0 21.6V12c0-1.3 1-2.4 2.4-2.4h8.4V4.8c0-1.3 1-2.4 2.4-2.4h2.4c.7 0 1.2-.5 1.2-1.2V0h2.4v2.4c0 1.3-1 2.4-2.4 2.4h-2.4c-.7 0-1.2.5-1.2 1.2v3.6h8.4c1.3 0 2.4 1 2.4 2.4zm-7.2 6h2.4v-2.4h-2.4V18zm-3.6-2.4a1.2 1.2 0 100 2.4 1.2 1.2 0 000-2.4zm-4.8 0h1.2V18H8.4v1.2H6V18H4.8v-2.4H6v-1.2h2.4v1.2z">
+        </path>
+    </symbol>
+    <symbol id="basket" viewBox="0 0 24 24" fill="currentColor">
+        <path fill-rule="evenodd" clip-rule="evenodd"
+            d="M19.8 17.58a9.54 9.54 0 01-1.8-5.55c1.2.2 2.38.49 3.56.82a9.53 9.53 0 01-1.76 4.73zm-6.6 3.94v-9.98c.8.02 1.61.08 2.42.16l-.02.3c0 2.78.96 5.33 2.54 7.37a9.56 9.56 0 01-4.94 2.15zm0-19.04c1.87.24 3.57 1 4.94 2.15a11.95 11.95 0 00-2.23 4.7c-.9-.1-1.8-.16-2.71-.2V2.49zm6.6 3.94a9.53 9.53 0 011.64 3.9c-1.04-.27-2.08-.5-3.14-.68.3-1.17.81-2.26 1.5-3.22zm-9 2.72c-.9.03-1.8.09-2.71.18a11.95 11.95 0 00-2.23-4.69 9.56 9.56 0 014.94-2.15v6.66zm0 12.38a9.56 9.56 0 01-4.94-2.15A11.94 11.94 0 008.4 12l-.02-.3c.8-.08 1.61-.14 2.42-.16v9.98zm-8.36-8.67c1.18-.33 2.36-.61 3.56-.82 0 2.07-.68 3.98-1.8 5.55a9.53 9.53 0 01-1.76-4.73zM4.2 6.42c.69.96 1.2 2.05 1.5 3.22-1.06.18-2.1.41-3.14.69a9.53 9.53 0 011.64-3.9zm17.26-1.79A12.02 12.02 0 0012 0a11.94 11.94 0 00-9.46 4.63A11.94 11.94 0 004.2 21.11a11.94 11.94 0 0017.26-1.74 11.94 11.94 0 000-14.74z">
+        </path>
+    </symbol>
+    <symbol id="heart" viewBox="0 0 24 20" fill="currentColor">
+        <path fill-rule="evenodd" clip-rule="evenodd"
+            d="M14.4 16.69a3.59 3.59 0 01-4.8-.02c-4.3-3.79-7.05-5.8-7.2-9.91C2.25 2.4 6.84.8 9.65 4.39a2.97 2.97 0 004.7-.01c2.75-3.53 7.46-2.03 7.24 2.5-.19 4.04-3.04 6.12-7.2 9.8zm-1.94-13.8a.6.6 0 01-.93 0C7.28-2.51-.23.19.01 6.85c.18 5.3 3.79 7.93 8.04 11.66a6 6 0 007.93 0c4.2-3.73 7.77-6.34 8-11.5.33-6.82-7.28-9.55-11.52-4.11z">
+        </path>
+    </symbol>
+    <symbol id="map-picker" viewBox="0 0 16 22" fill="currentColor">
+        <path fill-rule="evenodd" clip-rule="evenodd"
+            d="M8 19.8c-2 0-5.7-7.7-5.7-12.1 0-3 2.5-5.5 5.7-5.5s5.7 2.5 5.7 5.5c0 4.4-3.6 12.1-5.7 12.1zM8 0C3.6 0 0 3.4 0 7.7 0 12 3.6 22 8 22s8-10 8-14.3C16 3.4 12.4 0 8 0zm0 9.5c-.6 0-1.1-.5-1.1-1.1a1.1 1.1 0 012.3 0c0 .6-.6 1.1-1.2 1.1zm0-4.4a3.4 3.4 0 00-3.4 3.3c0 1.8 1.5 3.3 3.4 3.3s3.4-1.5 3.4-3.3c0-1.8-1.5-3.3-3.4-3.3z">
+        </path>
+    </symbol>
+    <symbol id="car" viewBox="0 0 24 20" fill="currentColor">
+        <path fill-rule="evenodd" clip-rule="evenodd"
+            d="M21.6 13.9h-.93c-.66-1.27-1.6-1.48-2.67-1.48-.42 0-.82-.12-1.2.02v-1.07h3.6c.66 0 1.2.14 1.2.84v1.68zM18 17.25c-.66 0-1.2-.56-1.2-1.26s.54-1.26 1.2-1.26c.66 0 1.2.56 1.2 1.26s-.54 1.26-1.2 1.26zm-3.6-8.42H9.6V2.53h3.6c.66 0 1.2.14 1.2.84v5.47zM9.6 13.9h4.8v-2.52H9.6v2.52zM6 17.26c-.66 0-1.2-.56-1.2-1.26s.54-1.26 1.2-1.26c.66 0 1.2.56 1.2 1.26s-.54 1.26-1.2 1.26zM3.33 13.9H2.4v-2.52h4.8v1.08c-.38-.14-.78-.03-1.2-.03-1.06 0-2 .21-2.67 1.47zM2.4 3.37c0-.7.54-.84 1.2-.84h3.6v6.31H2.4V3.37zm19.2 5.47h-4.8V2.11C16.8.7 15.73 0 14.4 0h-12C1.07 0 0 .71 0 2.1v11.37C0 14.87 1.07 16 2.4 16c0 2.1 1.61 4 3.6 4s3.6-2.32 3.6-3.58h4.8c0 1.26 1.61 3.58 3.6 3.58s3.6-1.8 3.6-3.9c1.33 0 2.4-1.23 2.4-2.63v-2.52c0-1.4-1.07-2.1-2.4-2.1z">
+        </path>
+    </symbol>
+    <symbol id="book" viewBox="0 0 24 23" fill="currentColor">
+        <path fill-rule="evenodd" clip-rule="evenodd"
+            d="M21.6 16.23c0 .53-.32 1-.81 1.18l-7.59 2.7V5.48l6.81-2.42c.78-.28 1.6.32 1.6 1.17v11.99zM10.8 5.7v14.4l-7.59-2.7a1.24 1.24 0 01-.81-1.18V4.24c0-.85.81-1.45 1.59-1.17l6.81 2.42v.22zm10-5.57L12.4 3.2c-.26.1-.54.1-.8 0L3.2.14C1.63-.43 0 .77 0 2.5v14.6c0 1.06.66 2.01 1.63 2.35l9.99 3.5c.25.08.51.08.76 0l9.99-3.5A2.48 2.48 0 0024 17.1V2.49C24 .77 22.37-.43 20.8.14z">
+        </path>
+    </symbol>
+    <symbol id="vironit" viewBox="0 0 852.5 286.3">
+        <path fill="#080e0d"
+            d="M74.4 202.9H34S14.9 101.6 4.1 51.2l42 .1c5.3 35.6 8.8 71.4 13.4 107.1 13.8-31.1 27.9-62 41.4-93.2A22.5 22.5 0 01121 51.5l29.5.1c-24.9 50.8-76.1 151.3-76.1 151.3zM177.2 7.4h20.5c5 0 9.8 2 13.1 5.7 3.3 3.7 4.8 8.7 4.2 13.7l-1.4 12-39.8-.1c1.3-10.5 2.5-20.9 3.4-31.3zm-5.1 44.3l20.4.1c4.9 0 9.7 2 12.8 5.8 3.2 3.8 4.4 8.9 3.7 13.8l-19.6 131.5h-39.9c.1 0 15.7-100.7 22.6-151.2zM202.8 202.9s6.4-48.4 10.2-72.6c2.3-13.1 5.8-26 12.5-37.4a79 79 0 0121.7-24.3c8-5.8 17.4-10 27.1-12.5a124 124 0 0130.3-3.9h5.6a1813 1813 0 01-6.2 40.7h-13a38.3 38.3 0 00-25.6 7.9c-7.3 6.3-10.3 15.9-12 25.1-4.1 25.6-10.8 77-10.8 77h-39.8zM323.8 189.6a47.7 47.7 0 01-13.5-27.1c-1.8-11.9-1.6-24.1.3-35.9 1.7-10.5 4.9-21 9.2-30.8A83.6 83.6 0 01337.1 70a72.1 72.1 0 0141-20.3 83.1 83.1 0 0141.4 3.9 48.7 48.7 0 0127.2 30 95.9 95.9 0 012.7 43.9 117.2 117.2 0 01-8.6 30.9 95.7 95.7 0 01-13.1 21.7 67.4 67.4 0 01-37.2 22.7 91.4 91.4 0 01-37.9.8 58.6 58.6 0 01-28.8-14zm42-99.3c-10.9 9.7-15.4 24.9-17 39-1.3 11.6-2.5 25.6 4.3 35.8 2.5 3.7 6.8 6.2 10.9 7.6a31.4 31.4 0 0017.2.6c7-1.6 12.7-7.1 17.3-12.6a67.4 67.4 0 0012.3-32.6c1.7-10 2.9-21.3-1.6-30.7-2.7-5.6-6.9-11.4-12.9-13.2a30.7 30.7 0 00-17-.3c-4.8 1-9.7 3-13.5 6.4zM589.3 202.9h-19.8a19 19 0 01-13.4-5.2 17 17 0 01-4-13.5c3-25.4 6.8-50.8 10.8-76 1.1-6.8.6-15.4-5-20a29 29 0 00-17.4-6.4 31.6 31.6 0 00-19.1 6.2 29.3 29.3 0 00-11.1 19.9 4029 4029 0 00-12.9 94.9h-39.9s7.2-58.2 11.8-87.2c3.3-19.5 10.3-41.5 28.3-52a97.8 97.8 0 0146.7-14.3 75.6 75.6 0 0143.9 13.5c16.7 11.3 15.1 35.6 12.5 53.2-4.5 29-11.4 86.9-11.4 86.9z">
+        </path>
+        <path fill="#52a97b"
+            d="M607.8 202.9l24.9-174.4c.8-5.8 3.7-11.1 8-15.1A23 23 0 01656 7.1h19.9l-27.7 195.8h-40.4zM719.5 202.9L742 43.6l-57.8-.2 2.2-14.8c.8-5.8 3.7-11.2 8-15.2 4.2-3.9 9.6-6.3 15.3-6.3H845l-5.4 36.7-57.3-.2-22.4 159.2h-40.4z">
+        </path>
+        <path fill="#080e0d"
+            d="M51.9 250.3c0-.8-.2-1.5-.6-2-.4-.5-1-.9-1.7-1.2a144.2 144.2 0 00-5.4-1.4l-3.8-1a8.8 8.8 0 01-5.4-4.1c-.5-1-.8-2.3-.8-3.9 0-1.7.3-3.2.9-4.4a7.9 7.9 0 012.6-3.1 13.5 13.5 0 018.7-2.5 35.1 35.1 0 0110.2 1.8v5.1a28 28 0 00-9.7-1.8c-2.1 0-3.6.4-4.7 1.1a3.6 3.6 0 00-1.7 3.2c0 .8.2 1.5.5 2 .4.5.9 1 1.5 1.3a105.5 105.5 0 008.9 2.4c1.3.4 2.5.9 3.5 1.6 1 .7 1.8 1.6 2.4 2.6.6 1.1.9 2.5.9 4.2 0 1.7-.3 3.2-1 4.5a7.8 7.8 0 01-2.9 3.1c-1.2.8-2.8 1.4-4.5 1.8a26.5 26.5 0 01-11.3.1c-1.8-.3-3.3-.8-4.5-1.5v-5a24.8 24.8 0 009.8 2l2.9-.2c1-.1 1.8-.4 2.6-.8s1.4-.9 1.8-1.5.8-1.5.8-2.4zM87.2 247.9c0 1.8-.3 3.5-.9 5-.6 1.5-1.4 2.8-2.5 3.9a11.4 11.4 0 01-3.9 2.5c-1.5.6-3.2.9-5.1.9-1.9 0-3.7-.3-5.2-.9-1.5-.6-2.8-1.4-3.9-2.5s-1.9-2.4-2.5-3.9c-.6-1.5-.9-3.2-.9-5 0-1.8.3-3.5.9-5 .6-1.5 1.4-2.8 2.5-3.9s2.4-1.9 3.9-2.5c1.5-.6 3.2-.9 5.1-.9 1.9 0 3.7.3 5.2.9 1.5.6 2.8 1.4 3.9 2.5s1.9 2.4 2.5 3.9c.6 1.5.9 3.1.9 5zm-6.2 0c0-1.2-.2-2.3-.5-3.3a7 7 0 00-1.3-2.4c-.5-.6-1.2-1.1-2-1.4s-1.6-.5-2.5-.5a7 7 0 00-2.5.5c-.8.3-1.4.8-1.9 1.4-.5.6-1 1.4-1.3 2.4a11.4 11.4 0 000 6.6 7 7 0 001.3 2.4c.6.6 1.2 1.1 2 1.4a7 7 0 002.5.5 7 7 0 002.5-.5c.7-.3 1.4-.8 1.9-1.4.5-.6 1-1.4 1.3-2.4s.5-2.1.5-3.3zM107.3 229.3l-2-.4a9 9 0 00-3.8 0c-.5.2-1 .4-1.3.8-.4.4-.6.8-.8 1.4a6 6 0 00-.3 2v3.1h6.8v4.7H99v18.6h-6v-18.6h-4.2v-4.7H93v-2.8c0-1.6.2-3 .7-4.2s1.2-2.2 2-2.9c.9-.8 1.9-1.3 3.1-1.7 1.2-.4 2.4-.5 3.8-.5a21 21 0 014.7.7v4.5z">
+        </path>
+        <path fill="#080e0d"
+            d="M123.2 259.5l-2.4.5-2.6.2c-2.1 0-3.8-.3-5.1-1s-2.2-1.5-2.8-2.7c-.4-.9-.6-2-.6-3.5v-12.1h-4.6v-4.7h4.6v-6.5h6v6.5h7.1v4.7h-7.1v11.3c0 .9.1 1.6.4 2 .5.7 1.5 1.1 3 1.1l2.1-.2 1.9-.4v4.8zM143.4 242.5c-.5 2.3-1 4.6-1.7 6.8l-3 10.2h-5.9l-8.6-23.3h6.4l3.2 9.8c.7 2.3 1.4 4.5 1.9 6.6h.1l1.7-6.6 2.8-9.8h6.4l2.8 9.8 1.7 6.6h.1l1.9-6.6 3.2-9.8h6.4l-8.6 23.3h-5.9l-3-10.2c-.7-2.3-1.2-4.5-1.7-6.8h-.2zM180 257h-.1l-1.2 1-1.6 1-2 .8a11.4 11.4 0 01-5.7-.2 7 7 0 01-4.3-3.9c-.4-1-.6-2-.6-3.1 0-1.3.2-2.4.7-3.4.5-1 1.2-1.8 2-2.5.9-.7 1.9-1.2 3.1-1.6s2.5-.5 4-.5a23.3 23.3 0 015.3.7v-.9c0-.5-.1-1.1-.3-1.6a3 3 0 00-.9-1.3 4 4 0 00-1.7-.9 9 9 0 00-2.5-.3 25.3 25.3 0 00-7.7 1.6v-4.5a20.6 20.6 0 0113-1c1.3.4 2.5 1 3.4 1.7s1.6 1.6 2 2.6c.4 1 .7 2.1.7 3.3v8.8l.1 4 .1 3h-5.4l-.4-2.8zm-.5-7.4a45.7 45.7 0 00-4.3-.5 7 7 0 00-3.5.8c-.9.6-1.3 1.4-1.3 2.5 0 .5.1 1 .3 1.4l.8 1c.3.3.7.4 1.2.6a5.9 5.9 0 003.1 0l1.5-.6c.5-.2.9-.5 1.2-.8l.9-.8v-3.6zM206.2 240.7h-.5c-1.8 0-3.5.3-4.9.8a6 6 0 00-3.2 2.4v15.6h-6v-23.3h5l.6 3.3h.1a7.8 7.8 0 012.9-2.8c1.2-.7 2.7-1 4.5-1a8 8 0 011.6.1v4.9zM221.7 255.5a24 24 0 007.6-1.3v4.5l-3.6.9a27.4 27.4 0 01-10-.2 10 10 0 01-4.1-2.1 9.6 9.6 0 01-2.8-3.7c-.7-1.5-1-3.3-1-5.5 0-2.1.3-4 1-5.6a11 11 0 016.3-6.2 12.6 12.6 0 018.6-.1c1.3.5 2.4 1.2 3.4 2.1s1.7 2.2 2.2 3.7c.5 1.5.8 3.3.8 5.4l-.1 2h-16.1a6.1 6.1 0 002.5 4.7c.7.5 1.5.8 2.4 1 .9.3 1.9.4 2.9.4zm-2.4-15.4c-.8 0-1.4.1-2 .4-.6.3-1.1.6-1.5 1.1-.4.5-.8 1-1 1.6-.3.6-.4 1.3-.5 2h9.7a7 7 0 00-.3-2 5 5 0 00-.9-1.6c-.4-.5-.9-.8-1.4-1.1a5 5 0 00-2.1-.4zM245.8 259.5v-32.2h9l2.4.1 2.4.2 2.3.3 2 .5c1.8.5 3.4 1.3 4.8 2.2s2.6 2 3.5 3.3c.9 1.3 1.7 2.7 2.1 4.2a19.3 19.3 0 01.1 10c-.4 1.5-1 2.9-1.9 4.2-.8 1.3-1.9 2.4-3.1 3.3s-2.8 1.7-4.5 2.3a29.3 29.3 0 01-11.1 1.6h-8zm8.8-4.9c3.6 0 6.5-.5 8.5-1.4a8.7 8.7 0 004.1-3.7c.9-1.6 1.4-3.7 1.4-6.2 0-1.3-.2-2.5-.5-3.6a8 8 0 00-1.3-2.8 10.4 10.4 0 00-4.9-3.6c-1-.4-2-.6-3.2-.8-1.2-.2-2.5-.2-4-.2H252v22.3h2.6zM292.8 255.5a24 24 0 007.6-1.3v4.5l-3.6.9a27.4 27.4 0 01-10-.2 10 10 0 01-4.1-2.1 9.6 9.6 0 01-2.8-3.7c-.7-1.5-1-3.3-1-5.5 0-2.1.3-4 1-5.6a11 11 0 016.3-6.2 12.6 12.6 0 018.6-.1c1.3.5 2.4 1.2 3.4 2.1s1.7 2.2 2.2 3.7c.5 1.5.8 3.3.8 5.4l-.1 2H285a6.1 6.1 0 002.5 4.7c.7.5 1.5.8 2.4 1 .9.3 1.9.4 2.9.4zm-2.4-15.4c-.8 0-1.4.1-2 .4-.6.3-1.1.6-1.5 1.1-.4.5-.8 1-1 1.6-.3.6-.4 1.3-.5 2h9.7a7 7 0 00-.3-2 5 5 0 00-.9-1.6c-.4-.5-.9-.8-1.4-1.1a5 5 0 00-2.1-.4zM327.9 236.2l-9.5 23.3h-6l-9.6-23.3h6.4l3.4 8.9 2.7 7.5h.1l2.6-7.4 3.4-9.1h6.5zM343.4 255.5a24 24 0 007.6-1.3v4.5l-3.6.9a27.4 27.4 0 01-10-.2 10 10 0 01-4.1-2.1 9.6 9.6 0 01-2.8-3.7c-.7-1.5-1-3.3-1-5.5 0-2.1.3-4 1-5.6a11 11 0 016.3-6.2 12.6 12.6 0 018.6-.1c1.3.5 2.4 1.2 3.4 2.1s1.7 2.2 2.2 3.7c.5 1.5.8 3.3.8 5.4l-.1 2h-16.1a6.1 6.1 0 002.5 4.7c.7.5 1.5.8 2.4 1 .8.3 1.8.4 2.9.4zm-2.4-15.4c-.8 0-1.4.1-2 .4-.6.3-1.1.6-1.5 1.1-.4.5-.8 1-1 1.6-.3.6-.4 1.3-.5 2h9.7a7 7 0 00-.3-2 5 5 0 00-.9-1.6c-.4-.5-.9-.8-1.4-1.1-.7-.3-1.4-.4-2.1-.4zM356.9 259.5v-34.9h6v34.9h-6zM392.6 247.9c0 1.8-.3 3.5-.9 5-.6 1.5-1.4 2.8-2.5 3.9a11.4 11.4 0 01-3.9 2.5c-1.5.6-3.2.9-5.1.9-1.9 0-3.7-.3-5.2-.9-1.5-.6-2.8-1.4-3.9-2.5s-1.9-2.4-2.5-3.9c-.6-1.5-.9-3.2-.9-5 0-1.8.3-3.5.9-5 .6-1.5 1.4-2.8 2.5-3.9s2.4-1.9 3.9-2.5c1.5-.6 3.2-.9 5.1-.9 1.9 0 3.7.3 5.2.9 1.5.6 2.8 1.4 3.9 2.5s1.9 2.4 2.5 3.9c.6 1.5.9 3.1.9 5zm-6.3 0c0-1.2-.2-2.3-.5-3.3a7 7 0 00-1.3-2.4c-.5-.6-1.2-1.1-2-1.4s-1.6-.5-2.5-.5a7 7 0 00-2.5.5c-.8.3-1.4.8-1.9 1.4-.5.6-1 1.4-1.3 2.4a11.4 11.4 0 000 6.6 7 7 0 001.3 2.4c.6.6 1.2 1.1 2 1.4a7 7 0 002.5.5 7 7 0 002.5-.5c.7-.3 1.4-.8 1.9-1.4.5-.6 1-1.4 1.3-2.4s.5-2.1.5-3.3zM409.5 260.1c-1.3 0-2.5-.2-3.6-.7a9 9 0 01-2.7-1.7h-.1l.1 1.4v11.6h-6v-34.5h5.3l.3 2.6h.1a8.8 8.8 0 017-3.2c1.3 0 2.7.2 4 .7 1.3.5 2.4 1.2 3.4 2.2 1 1 1.8 2.2 2.4 3.7.6 1.5.9 3.3.9 5.3a13.7 13.7 0 01-3.5 9.5 11.2 11.2 0 01-7.6 3.1zm-.8-19.9a7.3 7.3 0 00-5.5 2.6v10.4l.9.8 1.2.7 1.5.6 1.7.2a5.1 5.1 0 004.3-2.2 10.8 10.8 0 001.5-5.7c0-1.3-.1-2.4-.4-3.3-.3-.9-.6-1.7-1.1-2.4a5.5 5.5 0 00-1.7-1.4c-.8-.1-1.5-.3-2.4-.3zM456.8 245.3l-.1-1.4-.2-1.1c-.2-.7-.6-1.3-1.1-1.7-.5-.4-1.3-.7-2.3-.7a8.8 8.8 0 00-3.3.8l-1.6 1-1.4 1.3v16.1h-6v-14.2l-.1-1.4-.2-1.1c-.2-.7-.5-1.3-1.1-1.7-.5-.4-1.3-.7-2.3-.7a8.8 8.8 0 00-3.3.8l-1.6 1-1.4 1.3v16.1h-6v-23.3h5l.6 3.3h.1a8.6 8.6 0 013.1-2.6c.7-.4 1.4-.6 2.3-.9s1.7-.3 2.6-.3c1.6 0 3.1.3 4.4 1 1.3.7 2.3 1.7 3 3.2h.1l1.6-1.7c.6-.5 1.2-1 1.9-1.3.7-.4 1.5-.7 2.3-.9a10.9 10.9 0 017 .7c1.2.7 2.1 1.6 2.8 2.8l.4 1 .3 1.2.2 1.5.1 1.9v14.5h-6v-14.5zM481.4 255.5a24 24 0 007.6-1.3v4.5l-3.6.9a27.4 27.4 0 01-10-.2 10 10 0 01-4.1-2.1 9.6 9.6 0 01-2.8-3.7c-.7-1.5-1-3.3-1-5.5 0-2.1.3-4 1-5.6a11 11 0 016.3-6.2 12.6 12.6 0 018.6-.1c1.3.5 2.4 1.2 3.4 2.1 1 1 1.7 2.2 2.2 3.7.5 1.5.8 3.3.8 5.4l-.1 2h-16.1a6.1 6.1 0 002.5 4.7c.7.5 1.5.8 2.4 1 .8.3 1.8.4 2.9.4zm-2.4-15.4c-.8 0-1.4.1-2 .4-.6.3-1.1.6-1.5 1.1-.4.5-.8 1-1 1.6-.3.6-.4 1.3-.5 2h9.7a7 7 0 00-.3-2 5 5 0 00-.9-1.6c-.4-.5-.9-.8-1.4-1.1a5 5 0 00-2.1-.4zM500.2 239.4h.1a8.6 8.6 0 013.2-2.6c.7-.4 1.5-.6 2.3-.9a11.2 11.2 0 017.6.9c.7.4 1.3.9 1.8 1.6.5.6 1 1.4 1.3 2.3.2.5.3 1 .3 1.6l.1 2v15.1h-6v-14.3l-.1-1.6-.3-1.2c-.3-.7-.8-1.3-1.4-1.6-.6-.3-1.4-.5-2.3-.5a8 8 0 00-6.3 3.1v16.1h-6v-23.3h5l.7 3.3zM537.9 259.5l-2.4.5-2.6.2c-2.1 0-3.8-.3-5.1-1s-2.2-1.5-2.8-2.7c-.4-.9-.6-2-.6-3.5v-12.1h-4.6v-4.7h4.6v-6.5h6v6.5h7.1v4.7h-7.1v11.3c0 .9.1 1.6.4 2 .5.7 1.5 1.1 3 1.1l2.1-.2 1.9-.4v4.8zM567.1 231.7a14 14 0 00-4.7.8 10 10 0 00-6.1 6c-.6 1.4-.9 3.2-.9 5.1 0 1.9.3 3.6.8 5a9.7 9.7 0 005.9 5.8c1.4.5 3 .7 4.8.7a25.6 25.6 0 007.7-1.1v5.1a42.4 42.4 0 01-8.1 1.1c-2.9 0-5.4-.4-7.6-1.2s-4-1.9-5.5-3.3-2.6-3.1-3.3-5.1a19.9 19.9 0 01.1-13.4 14.6 14.6 0 019-9.1c2.2-.9 4.8-1.3 7.6-1.3a27.3 27.3 0 017.6 1.1v5a20 20 0 00-3.8-.8 14 14 0 00-3.5-.4zM603 247.9c0 1.8-.3 3.5-.9 5-.6 1.5-1.4 2.8-2.5 3.9s-2.4 1.9-3.9 2.5c-1.5.6-3.2.9-5.1.9-1.9 0-3.7-.3-5.2-.9-1.5-.6-2.8-1.4-3.9-2.5a11.4 11.4 0 01-2.5-3.9c-.6-1.5-.9-3.2-.9-5 0-1.8.3-3.5.9-5 .6-1.5 1.4-2.8 2.5-3.9s2.4-1.9 3.9-2.5c1.5-.6 3.2-.9 5.1-.9 1.9 0 3.7.3 5.2.9 1.5.6 2.8 1.4 3.9 2.5s1.9 2.4 2.5 3.9c.6 1.5.9 3.1.9 5zm-6.2 0c0-1.2-.2-2.3-.5-3.3a7 7 0 00-1.3-2.4c-.5-.6-1.2-1.1-2-1.4s-1.6-.5-2.5-.5c-.9 0-1.7.2-2.5.5s-1.4.8-1.9 1.4c-.5.6-1 1.4-1.3 2.4a11.4 11.4 0 000 6.6c.3.9.7 1.7 1.3 2.4s1.2 1.1 2 1.4 1.6.5 2.5.5 1.7-.2 2.5-.5c.7-.3 1.4-.8 1.9-1.4.5-.6 1-1.4 1.3-2.4s.5-2.1.5-3.3zM639.4 245.3l-.1-1.4-.2-1.1c-.2-.7-.6-1.3-1.1-1.7s-1.3-.7-2.3-.7a8.8 8.8 0 00-3.3.8l-1.6 1-1.4 1.3v16.1h-6v-14.2l-.1-1.4-.2-1.1c-.2-.7-.5-1.3-1.1-1.7s-1.3-.7-2.3-.7a8.8 8.8 0 00-3.3.8l-1.6 1-1.4 1.3v16.1h-6v-23.3h5l.6 3.3h.1a8.6 8.6 0 013.1-2.6c.7-.4 1.4-.6 2.3-.9s1.7-.3 2.6-.3c1.6 0 3.1.3 4.4 1 1.3.7 2.3 1.7 3 3.2h.1l1.6-1.7c.6-.5 1.2-1 1.9-1.3.7-.4 1.5-.7 2.3-.9a10.9 10.9 0 017 .7c1.2.7 2.1 1.6 2.8 2.8l.4 1 .3 1.2.2 1.5.1 1.9v14.5h-6v-14.5zM663.6 260.1c-1.3 0-2.5-.2-3.6-.7a9 9 0 01-2.7-1.7h-.1l.1 1.4v11.6h-6v-34.5h5.3l.3 2.6h.1a8.8 8.8 0 017-3.2c1.3 0 2.7.2 4 .7 1.3.5 2.4 1.2 3.4 2.2 1 1 1.8 2.2 2.4 3.7.6 1.5.9 3.3.9 5.3a13.7 13.7 0 01-3.5 9.5c-1 1-2.2 1.8-3.5 2.3a10 10 0 01-4.1.8zm-.8-19.9a7.3 7.3 0 00-5.5 2.6v10.4l.9.8 1.2.7 1.5.6 1.7.2a5.1 5.1 0 004.3-2.2 10.8 10.8 0 001.5-5.7c0-1.3-.1-2.4-.4-3.3-.3-.9-.6-1.7-1.1-2.4a5.5 5.5 0 00-1.7-1.4l-2.4-.3zM693.7 257h-.1l-1.2 1-1.6 1-2 .8a11.4 11.4 0 01-5.7-.2 7 7 0 01-4.3-3.9c-.4-.9-.6-2-.6-3.1 0-1.3.2-2.4.7-3.4s1.2-1.8 2-2.5c.9-.7 1.9-1.2 3.1-1.6 1.2-.4 2.5-.5 4-.5a23.3 23.3 0 015.3.7v-.9c0-.5-.1-1.1-.3-1.6a3 3 0 00-.9-1.3 4 4 0 00-1.7-.9 9 9 0 00-2.5-.3 25.3 25.3 0 00-7.7 1.6v-4.5a20.6 20.6 0 0113-1c1.3.4 2.5 1 3.4 1.7.9.7 1.6 1.6 2 2.6s.7 2.1.7 3.3v8.8l.1 4 .1 3h-5.4l-.4-2.8zm-.5-7.4a45.7 45.7 0 00-4.3-.5 7 7 0 00-3.5.8c-.9.6-1.3 1.4-1.3 2.5 0 .5.1 1 .3 1.4l.8 1c.3.3.7.4 1.2.6a5.9 5.9 0 003.1 0l1.5-.6c.5-.2.9-.5 1.2-.8l.9-.8v-3.6zM710.8 239.4h.1a8.6 8.6 0 013.2-2.6c.7-.4 1.5-.6 2.3-.9a11.2 11.2 0 017.6.9c.7.4 1.3.9 1.8 1.6.5.6 1 1.4 1.3 2.3.2.5.3 1 .3 1.6l.1 2v15.1h-6v-14.3l-.1-1.6-.3-1.2c-.3-.7-.8-1.3-1.4-1.6-.6-.3-1.4-.5-2.3-.5a8 8 0 00-6.3 3.1v16.1h-6v-23.3h5l.7 3.3zM730.3 236.2h6.5l3.7 8.4c1.4 3.2 2.4 5.6 2.9 7.1h.1a115 115 0 012.7-6.7l3.8-8.9h6.5l-15.9 34.5h-5.9l5.6-12.5-10-21.9z">
+        </path>
+    </symbol>
+    <symbol id="bmesoftware" viewBox="0 0 282 96">
+        <circle cx="256.503" cy="76.4996" r="4.50005" fill="#3DC1AD"></circle>
+        <path fill-rule="evenodd" clip-rule="evenodd"
+            d="M29.3222 21.7623C27.9902 20.0343 26.2262 18.9363 24.0301 18.4683C25.9741 17.8923 27.5222 16.8663 28.6742 15.3903C29.8622 13.9142 30.4562 12.0602 30.4562 9.8282C30.4562 6.80417 29.3582 4.41014 27.1622 2.64612C25.0021 0.882104 21.9961 9.46522e-05 18.1441 9.46522e-05H1.07988V37.9085H18.7381C22.6981 37.9085 25.7761 36.9905 27.9722 35.1545C30.2042 33.2824 31.3202 30.7624 31.3202 27.5944C31.3202 25.3984 30.6542 23.4543 29.3222 21.7623ZM16.362 15.3363H10.314V7.39817H16.362C17.8741 7.39817 19.0261 7.74018 19.8181 8.42418C20.6461 9.10819 21.0601 10.0982 21.0601 11.3942C21.0601 12.6902 20.6461 13.6802 19.8181 14.3642C19.0261 15.0123 17.8741 15.3363 16.362 15.3363ZM20.6821 29.4304C19.8541 30.1144 18.6661 30.4564 17.1181 30.4564H10.314V22.0863H17.0101C18.5581 22.0863 19.7641 22.4643 20.6281 23.2203C21.5281 23.9763 21.9781 25.0204 21.9781 26.3524C21.9781 27.6844 21.5461 28.7104 20.6821 29.4304ZM79.6066 36.7076V9.46522e-05H68.7525L58.2224 26.2444L47.5843 9.46522e-05H36.676V37.9085H45.9103V15.1203L54.4423 37.9085H61.8944L70.3725 15.1743V37.9085H75.1562C74.2644 38.3334 73.4758 38.8596 72.7902 39.487C70.6662 41.3951 69.6042 44.2031 69.6042 47.9111V48.7751H66.2562V56.4432H69.6042V78.9074H78.8383V56.4432H83.8064V48.7751H78.8383V48.5051C78.8383 46.9211 79.1983 45.8231 79.9183 45.2111C80.6383 44.5991 81.8803 44.3471 83.6444 44.4551V36.625C83.3204 36.589 82.8163 36.571 82.1323 36.571C81.2441 36.571 80.4021 36.6165 79.6066 36.7076ZM95.481 15.0663V7.39817H109.467V9.46522e-05H86.2469V37.9085H109.467V30.5104H95.481V22.1943H107.847V15.0663H95.481ZM7.34408 77.9354C9.5401 78.8354 12.0241 79.2855 14.7962 79.2855C17.6402 79.2855 20.1062 78.7635 22.1942 77.7194C24.2823 76.6754 25.8663 75.2714 26.9463 73.5074C28.0623 71.7434 28.6203 69.7813 28.6203 67.6213C28.6203 65.3533 28.0623 63.4993 26.9463 62.0593C25.8303 60.6193 24.4983 59.5212 22.9502 58.7652C21.4382 58.0092 19.4582 57.2172 17.0102 56.3892C14.5622 55.5972 12.7621 54.8592 11.6101 54.1752C10.4581 53.4912 9.8821 52.5372 9.8821 51.3132C9.8821 50.1971 10.2241 49.3511 10.9081 48.7751C11.5921 48.1631 12.4921 47.8571 13.6081 47.8571C14.9042 47.8571 15.9662 48.2171 16.7942 48.9371C17.6222 49.6211 18.0722 50.5751 18.1442 51.7992H28.1343C27.9543 48.2351 26.5863 45.4631 24.0303 43.4831C21.4742 41.4671 18.1082 40.459 13.9321 40.459C9.8281 40.459 6.49807 41.4671 3.94204 43.4831C1.38601 45.4631 0.108001 48.2171 0.108001 51.7452C0.108001 54.1212 0.666007 56.0472 1.78202 57.5232C2.89803 58.9992 4.23004 60.1152 5.77806 60.8713C7.32608 61.6273 9.3241 62.3833 11.7721 63.1393C13.4641 63.6433 14.7602 64.0933 15.6602 64.4893C16.5962 64.8853 17.3702 65.3893 17.9822 66.0013C18.6302 66.6133 18.9542 67.3873 18.9542 68.3233C18.9542 69.4393 18.5582 70.3214 17.7662 70.9694C16.9742 71.5814 15.8942 71.8874 14.5262 71.8874C13.1941 71.8874 12.1141 71.5274 11.2861 70.8074C10.4581 70.0514 9.97211 68.9713 9.8281 67.5673H0C0.0720003 70.0514 0.756008 72.1754 2.05202 73.9394C3.38404 75.7034 5.14805 77.0354 7.34408 77.9354ZM40.0271 77.4494C42.4031 78.7094 45.0671 79.3395 48.0192 79.3395C50.9712 79.3395 53.6352 78.7094 56.0112 77.4494C58.4233 76.1894 60.3133 74.3894 61.6813 72.0494C63.0853 69.6734 63.7873 66.9373 63.7873 63.8413C63.7873 60.7453 63.1033 58.0272 61.7353 55.6872C60.3673 53.3112 58.4953 51.4932 56.1193 50.2331C53.7432 48.9731 51.0792 48.3431 48.1272 48.3431C45.1751 48.3431 42.5111 48.9731 40.1351 50.2331C37.7591 51.4932 35.887 53.3112 34.519 55.6872C33.151 58.0272 32.467 60.7453 32.467 63.8413C32.467 66.9733 33.133 69.7094 34.465 72.0494C35.833 74.3894 37.6871 76.1894 40.0271 77.4494ZM52.5012 69.4034C51.2772 70.6994 49.7832 71.3474 48.0192 71.3474C46.2551 71.3474 44.7791 70.6994 43.5911 69.4034C42.4391 68.1073 41.8631 66.2533 41.8631 63.8413C41.8631 61.3933 42.4571 59.5392 43.6451 58.2792C44.8331 56.9832 46.3271 56.3352 48.1272 56.3352C49.8912 56.3352 51.3672 56.9832 52.5552 58.2792C53.7792 59.5752 54.3912 61.4293 54.3912 63.8413C54.3912 66.2533 53.7612 68.1073 52.5012 69.4034ZM104.94 78.9074V71.0774H101.646C100.638 71.0774 99.9175 70.8794 99.4855 70.4834C99.0535 70.0874 98.8375 69.4393 98.8375 68.5393V56.4432H104.886V48.7751H98.8375V41.4311H89.6034V48.7751H85.9314V56.4432H89.6034V68.4313C89.6034 72.1394 90.5394 74.8214 92.4114 76.4774C94.2835 78.0974 96.8935 78.9074 100.242 78.9074H104.94ZM145.184 78.9074L153.338 48.7751H144.643L140.431 70.2134L135.301 48.7751H125.527L120.451 70.3214L116.185 48.7751H106.951L115.159 78.9074H125.311L130.225 59.3592L134.977 78.9074H145.184ZM156.751 55.6332C155.599 57.9732 155.023 60.6913 155.023 63.7873C155.023 66.8833 155.599 69.6194 156.751 71.9954C157.939 74.3354 159.541 76.1534 161.557 77.4494C163.573 78.7094 165.805 79.3395 168.253 79.3395C170.377 79.3395 172.231 78.9074 173.815 78.0434C175.435 77.1794 176.695 76.0454 177.595 74.6414V78.9074H186.829V48.7751H177.595V53.0412C176.731 51.6372 175.489 50.5031 173.869 49.6391C172.285 48.7751 170.431 48.3431 168.307 48.3431C165.823 48.3431 163.573 48.9731 161.557 50.2331C159.541 51.4932 157.939 53.2932 156.751 55.6332ZM175.651 58.3872C176.947 59.7192 177.595 61.5373 177.595 63.8413C177.595 66.1453 176.947 67.9633 175.651 69.2953C174.391 70.6274 172.843 71.2934 171.007 71.2934C169.171 71.2934 167.605 70.6274 166.309 69.2953C165.049 67.9273 164.419 66.0913 164.419 63.7873C164.419 61.4833 165.049 59.6832 166.309 58.3872C167.605 57.0552 169.171 56.3892 171.007 56.3892C172.843 56.3892 174.391 57.0552 175.651 58.3872ZM206.794 49.9091C205.174 50.8451 203.824 52.1412 202.744 53.7972V48.7751H193.51V78.9074H202.744V64.9213C202.744 62.4373 203.32 60.7093 204.472 59.7372C205.624 58.7292 207.352 58.2252 209.656 58.2252H212.194V48.4511C210.214 48.4511 208.414 48.9371 206.794 49.9091ZM244.85 66.0553C244.958 65.1193 245.012 64.2193 245.012 63.3553C245.012 60.3313 244.364 57.6852 243.068 55.4172C241.808 53.1492 240.044 51.4032 237.776 50.1791C235.508 48.9551 232.916 48.3431 230 48.3431C227.012 48.3431 224.366 48.9731 222.062 50.2331C219.758 51.4932 217.958 53.2932 216.662 55.6332C215.402 57.9732 214.772 60.7093 214.772 63.8413C214.772 66.9733 215.42 69.7094 216.716 72.0494C218.012 74.3894 219.812 76.1894 222.116 77.4494C224.42 78.7094 227.048 79.3395 230 79.3395C232.448 79.3395 234.662 78.8895 236.642 77.9894C238.622 77.0894 240.26 75.8474 241.556 74.2634C242.888 72.6794 243.806 70.8974 244.31 68.9173H234.482C233.582 70.8614 231.98 71.8334 229.676 71.8334C228.128 71.8334 226.814 71.3474 225.734 70.3754C224.69 69.3673 224.096 67.9273 223.952 66.0553H244.85ZM233.942 57.1452C235.022 58.0812 235.562 59.3412 235.562 60.9253H224.006C224.258 59.2692 224.906 57.9912 225.95 57.0912C227.03 56.1912 228.344 55.7412 229.892 55.7412C231.512 55.7412 232.862 56.2092 233.942 57.1452Z"
+            fill="#1C292D"></path>
+        <path fill-rule="evenodd" clip-rule="evenodd"
+            d="M74.8333 78.9074H69.4713V56.4432H66.1233V48.7751H69.4713V47.9111C69.4713 44.2031 70.5333 41.3951 72.6573 39.487C73.3429 38.8596 74.1315 38.3334 75.0233 37.9085H70.2396V15.1743L61.7615 37.9085H54.3094L45.7773 15.1203V37.9085H40.7814L47.0994 9.46522e-05H47.4514L58.0895 26.2444L68.6196 9.46522e-05H79.4737V36.7076C80.2692 36.6165 81.1111 36.571 81.9994 36.571C82.6834 36.571 83.1874 36.589 83.5114 36.625V44.4551C81.7474 44.3471 80.5054 44.5991 79.7854 45.2111C79.0654 45.8231 78.7054 46.9211 78.7054 48.5051V48.7751H83.6734V56.4432H78.7054V77.8243L74.8333 78.9074ZM102.825 71.0774L90.7113 74.4659C89.8841 72.9077 89.4705 70.8962 89.4705 68.4313V56.4432H85.7985V48.7751H89.4705V41.4311H98.7046V48.7751H104.753V56.4432H98.7046V68.5393C98.7046 69.4393 98.9206 70.0874 99.3526 70.4834C99.7846 70.8794 100.505 71.0774 101.513 71.0774H102.825ZM131.023 63.1892L130.092 59.3592L128.986 63.7591L121.362 65.8919L125.394 48.7751H135.168L138.141 61.1982L131.023 63.1892ZM182.552 48.7751H177.462V50.1988L182.552 48.7751ZM175.446 50.7627L156.403 56.0898C156.472 55.936 156.544 55.7838 156.618 55.6332C157.806 53.2932 159.408 51.4932 161.424 50.2331C163.44 48.9731 165.69 48.3431 168.174 48.3431C170.298 48.3431 172.152 48.7751 173.736 49.6391C174.363 49.9733 174.933 50.3478 175.446 50.7627ZM150.801 57.6568L142.298 60.0353L144.511 48.7751H153.205L150.801 57.6568ZM119.542 66.4009L112.18 68.4602L106.818 48.7751H116.052L119.542 66.4009ZM38.5841 51.0924C39.0349 50.7818 39.5076 50.4954 40.0022 50.2331C42.3782 48.9731 45.0422 48.3431 47.9943 48.3431C50.9463 48.3431 53.6103 48.9731 55.9863 50.2331C58.3624 51.4932 60.2344 53.3112 61.6024 55.6872C62.9704 58.0272 63.6544 60.7453 63.6544 63.8413C63.6544 66.9373 62.9524 69.6734 61.5484 72.0494C60.1804 74.3894 58.2904 76.1894 55.8783 77.4494C53.5023 78.7094 50.8383 79.3395 47.8863 79.3395C44.9342 79.3395 42.2702 78.7094 39.8942 77.4494C37.8807 76.3653 36.227 74.8813 34.9332 72.9975L38.5841 51.0924ZM95.3481 7.39817V15.0663H107.714V22.1943H95.3481V30.5104H109.334V37.9085H86.114V9.46522e-05H109.334V7.39817H95.3481ZM47.8863 71.3474C49.6503 71.3474 51.1443 70.6994 52.3683 69.4034C53.6283 68.1073 54.2583 66.2533 54.2583 63.8413C54.2583 61.4293 53.6463 59.5752 52.4223 58.2792C51.2343 56.9832 49.7583 56.3352 47.9943 56.3352C46.1942 56.3352 44.7002 56.9832 43.5122 58.2792C42.3242 59.5392 41.7302 61.3933 41.7302 63.8413C41.7302 66.2533 42.3062 68.1073 43.4582 69.4034C44.6462 70.6994 46.1222 71.3474 47.8863 71.3474Z"
+            fill="#3DC1AD"></path>
+    </symbol>
+</svg>
+<section class="advantages section" id="second">
+    <div class="container">
+        <div class="section-main__info">
+            <h2 class="section-main__title">
+                We Provide Agile Software Development Services </h2>
+            <p class="section-main__content">
+                Based on many years of experience, we know that every business has a different software and hardware
+                environment. That is why we provide a wide range of software development services. Check out the key
+                services below. </p>
+        </div>
+        <div class="advantages-row center-tech slider">
+            <div class="advantages-col">
+                <div class="advantages-col__img">
+                    <svg>
+                        <use xlink:href="#rocket"></use>
+                    </svg>
+                    <h3 class="advantages-col__title">
+                        Custom software development </h3>
+                </div>
+                <p class="advantages-col__text">
+                    We convert your idea into solid, safe, and reliable custom software with our full-cycle software
+                    development services, including: </p>
+                <ul class="advantages-list">
+                    <li>Web app solution</li>
+                    <li>Mobile app solutions</li>
+                    <li>UI/UX</li>
+                </ul>
+            </div>
+            <div class="advantages-col">
+                <div class="advantages-col__img">
+                    <svg>
+                        <use xlink:href="#mobile2"></use>
+                    </svg>
+                    <h3 class="advantages-col__title">
+                        Mobile App Development Services </h3>
+                </div>
+                <p class="advantages-col__text">
+                    Our team can provide support at any stage of custom mobile app development, from creating a
+                    proof-of-concept app to an MVP: </p>
+                <ul class="advantages-list">
+                    <li>Cross-platform apps for iOS and Android</li>
+                    <li>Hybrid and mobile web</li>
+                    <li>Native apps development</li>
+                </ul>
+            </div>
+            <div class="advantages-col">
+                <div class="advantages-col__img">
+                    <svg>
+                        <use xlink:href="#wallet"></use>
+                    </svg>
+                    <h3 class="advantages-col__title">
+                        Offshore Software Development </h3>
+                </div>
+                <p class="advantages-col__text">
+                    Offshore software development services cut costs and optimize business processes. We provide:
+                </p>
+                <ul class="advantages-list">
+                    <li>On-time delivery</li>
+                    <li>A dedicated team</li>
+                    <li>Flexible pricing</li>
+                </ul>
+            </div>
+            <div class="advantages-col">
+                <div class="advantages-col__img">
+                    <svg>
+                        <use xlink:href="#man"></use>
+                    </svg>
+                    <h3 class="advantages-col__title">
+                        enterprise software development </h3>
+                </div>
+                <p class="advantages-col__text">
+                    We create business software solutions to solve workflow issues that enterprises often face,
+                    including: </p>
+                <ul class="advantages-list">
+                    <li>Integration of advanced technology apps</li>
+                    <li>Business process management</li>
+                    <li>Production process automation</li>
+                </ul>
+            </div>
+            <div class="advantages-col">
+                <div class="advantages-col__img">
+                    <svg>
+                        <use xlink:href="#integration"></use>
+                    </svg>
+                    <h3 class="advantages-col__title">
+                        IT Consulting </h3>
+                </div>
+                <p class="advantages-col__text">
+                    Our team covers all IT strategies and provides IT consulting services that help optimize your
+                    business and make it grow: </p>
+                <ul class="advantages-list">
+                    <li>System integration</li>
+                    <li>Data analytics</li>
+                    <li>Internet of Things</li>
+                </ul>
+            </div>
+            <div class="advantages-col">
+                <div class="advantages-col__img">
+                    <svg>
+                        <use xlink:href="#brain"></use>
+                    </svg>
+                    <h3 class="advantages-col__title">
+                        Software Integration </h3>
+                </div>
+                <p class="advantages-col__text">
+                    We connect IT systems, microservices &amp; migrate data, including cloud-based data, from one
+                    database to another by providing: </p>
+                <ul class="advantages-list">
+                    <li>Data integration</li>
+                    <li>API integration</li>
+                    <li>Service-oriented architecture (SOA)</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="technology section">
+    <div class="container">
+        <div class="section-main__info">
+            <h2 class="section-main__title">
+                The Technology Platforms We Use </h2>
+            <p class="section-main__content">
+                As an IT firm, we take the perspectives of our clients and their diverse claims in software
+                development. To help you achieve your goals, we enhance our capacities by working with various
+                programming languages, platforms, and new technologies. The list of what we can do is given below.
+            </p>
+        </div>
+        <div class="technology-content center-tech">
+            <div class="technology-item">
+                <div class="technology-title">
+                    <div class="technology-icon">
+                        <svg>
+                            <use xlink:href="#mobile2"></use>
+                        </svg>
+                    </div>
+                    <h3>
+                        Mobile Development </h3>
+                </div>
+                <ul class="technology-list">
+                    <li class="technology-list-item">iOS</li>
+                    <li class="technology-list-item">Android</li>
+                    <li class="technology-list-item">ReactNative</li>
+                    <li class="technology-list-item">Flutter</li>
+                </ul>
+                <hr class="technology-item--separator">
+            </div>
+            <!-- row(1) -->
+            <div class="technology-item">
+                <div class="technology-title">
+                    <div class="technology-icon">
+                        <svg>
+                            <use xlink:href="#desktop"></use>
+                        </svg>
+                    </div>
+                    <h3>
+                        Web Platform </h3>
+                </div>
+                <ul class="technology-list">
+                    <li class="technology-list-item">
+                        Node.JS
+                    </li>
+                    <li class="technology-list-item">
+                        AngularJS
+                    </li>
+                    <li class="technology-list-item">
+                        React.js
+                    </li>
+                    <li class="technology-list-item">
+                        Vue.js
+                    </li>
+                    <li class="technology-list-item">
+                        Spring MVC
+                    </li>
+                    <li class="technology-list-item">
+                        ASP.NET
+                    </li>
+                    <li class="technology-list-item">
+                        Nest.js
+                    </li>
+                    <li class="technology-list-item">
+                        ASP.NET Core
+                    </li>
+                </ul>
+                <hr class="technology-item--separator">
+            </div>
+            <!-- row(2) -->
+            <div class="technology-item">
+                <div class="technology-title">
+                    <div class="technology-icon">
+                        <svg>
+                            <use xlink:href="#code"></use>
+                        </svg>
+                    </div>
+                    <h3>
+                        Programming Languages </h3>
+                </div>
+                <ul class="technology-list">
+                    <li class="technology-list-item">
+                        Swift
+                    </li>
+                    <li class="technology-list-item">
+                        C#
+                    </li>
+                    <li class="technology-list-item">
+                        Java
+                    </li>
+                    <li class="technology-list-item">
+                        PHP
+                    </li>
+                    <li class="technology-list-item">
+                        Kotlin
+                    </li>
+                    <li class="technology-list-item">
+                        Objective-C
+                    </li>
+                    <li class="technology-list-item">
+                        Typescript
+                    </li>
+                </ul>
+                <hr class="technology-item--separator">
+            </div>
+            <!-- row(3) -->
+            <div class="technology-item">
+                <div class="technology-title">
+                    <div class="technology-icon">
+                        <svg>
+                            <use xlink:href="#technologies"></use>
+                        </svg>
+                    </div>
+                    <h3>Technologies</h3>
+                </div>
+                <ul class="technology-list">
+                    <li class="technology-list-item">
+                        REST
+                    </li>
+                    <li class="technology-list-item">
+                        JavaEE
+                    </li>
+                    <li class="technology-list-item">
+                        AR/VR
+                    </li>
+                    <li class="technology-list-item">
+                        Unity 3D
+                    </li>
+                    <li class="technology-list-item">
+                        Spring
+                    </li>
+                    <li class="technology-list-item">
+                        GraphQL
+                    </li>
+                    <li class="technology-list-item">
+                        JPA/Hibernate
+                    </li>
+                    <li class="technology-list-item">
+                        QT.NET
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="contactUs section">
+    <picture>
+        <source srcset="images/contact-us-section-7bju6pudrg8k0nskkkqvtpipjs7bc41t2pqlt8eg934.jpg.webp"
+            media="(max-width: 768px)" type="image/webp">
+        <source srcset="images/contact-us-section-7bju6pudrg8k0nskkkqvtpipjs7bc41t2pqlt8eg934.jpg"
+            media="(max-width: 768px)">
+        <source srcset="images/contact-us-section-7bju6pugd0am79v8dlcu8v9734sqwmrpif7nth2onxc.jpg.webp"
+            type="image/webp">
+        <img class="main__bg" src="images/contact-us-section-7bju6pugd0am79v8dlcu8v9734sqwmrpif7nth2onxc.jpg"
+            alt="Want To Develop A Custom Software Solution?>" loading="lazy" decoding="async">
+    </picture>
+    <div class="gradient"></div>
+    <div class="container">
+        <div class="section-main__info">
+            <h2 class="section-main__title contactUs-title">
+                Want To Develop A Custom Software Solution? </h2>
+            <button onclick="location.href='#'">Contact us</button>
+        </div>
+    </div>
+</section>
+<section class="industries section">
+    <div class="container">
+        <div class="section-main__info">
+            <h2 class="section-main__title">
+                We Provide Our IT Services to Various Industries </h2>
+            <p class="section-main__content">
+                DCDIUM Technology Software IT and Service Consulting Company has completed projects of varying
+                complexities within a variety of industries. We are experienced in media and entertainment, game
+                development, medicine, the public sector, banking, gambling, and more. </p>
+        </div>
+        <div class="industries-content">
+            <div class="industries-item--wrap">
+                <a href="#" class="industries-item">
+                    <span class="industries-icon">
+                        <svg>
+                            <use xlink:href="#banking-icon"></use>
+                        </svg>
+                    </span>
+                    <p>
+                        FinTech </p>
+                </a>
+            </div>
+            <div class="industries-item--wrap">
+                <a href="#" class="industries-item">
+                    <span class="industries-icon">
+                        <svg>
+                            <use xlink:href="#game-controller"></use>
+                        </svg>
+                    </span>
+                    <p>
+                        Game Development </p>
+                </a>
+            </div>
+            <div class="industries-item--wrap">
+                <a href="#" class="industries-item">
+                    <span class="industries-icon">
+                        <svg>
+                            <use xlink:href="#map-picker"></use>
+                        </svg>
+                    </span>
+                    <p>
+                        Travel &amp; Hospitality </p>
+                </a>
+            </div>
+            <div class="industries-item--wrap">
+                <a href="#" class="industries-item">
+                    <span class="industries-icon">
+                        <svg>
+                            <use xlink:href="#megaphone"></use>
+                        </svg>
+                    </span>
+                    <p>
+                        Media &amp; Entertainment </p>
+                </a>
+            </div>
+            <div class="industries-item--wrap">
+                <a href="#" class="industries-item">
+                    <span class="industries-icon">
+                        <svg>
+                            <use xlink:href="#basket"></use>
+                        </svg>
+                    </span>
+                    <p>
+                        Sport </p>
+                </a>
+            </div>
+            <div class="industries-item--wrap">
+                <a href="#" class="industries-item">
+                    <span class="industries-icon">
+                        <svg>
+                            <use xlink:href="#car"></use>
+                        </svg>
+                    </span>
+                    <p>Logistics</p>
+                </a>
+            </div>
+            <div class="industries-item--wrap">
+                <a href="/portfolio-types/retail/" class="industries-item">
+                    <span class="industries-icon">
+                        <svg>
+                            <use xlink:href="#bag"></use>
+                        </svg>
+                    </span>
+                    <p>
+                        Retail </p>
+                </a>
+            </div>
+            <div class="industries-item--wrap">
+                <a href="/portfolio-types/ehealth/" class="industries-item">
+                    <span class="industries-icon">
+                        <svg>
+                            <use xlink:href="#heart"></use>
+                        </svg>
+                    </span>
+                    <p>
+                        MedTech </p>
+                </a>
+            </div>
+            <div class="industries-item--wrap">
+                <a href="/portfolio-types/education/" class="industries-item">
+                    <span class="industries-icon">
+                        <svg>
+                            <use xlink:href="#book"></use>
+                        </svg>
+                    </span>
+                    <p>
+                        Education </p>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="cycle section">
+    <div class="container">
+        <div class="section-main__info">
+            <h2 class="section-main__title">
+                Our Software Development Cycle </h2>
+            <p class="section-main__content">
+                We apply a systematic approach to complex and simple projects. We follow Agile methodology, Scrum
+                and Kanban, which allow our dedicated team to deliver exceptional apps on time. </p>
+        </div>
+        <div class="cycle-content">
+            <picture>
+                <source srcset="images/dev-cycle-7bju6pubqhbvrkqx4xt1391681evfxy27y11a98q6j0.png.webp"
+                    media="(max-width: 768px)" type="image/webp">
+                <source srcset="images/dev-cycle-7bju6pubqhbvrkqx4xt1391681evfxy27y11a98q6j0.png"
+                    media="(max-width: 768px)">
+                <source srcset="images/dev-cycle-7bju6puccw9e8te08wdbfk3sxrzx0keq03l2j8wsye8.png.webp"
+                    media="(max-width: 1024px)" type="image/webp">
+                <source srcset="images/dev-cycle-7bju6puccw9e8te08wdbfk3sxrzx0keq03l2j8wsye8.png"
+                    media="(max-width: 1024px)">
+                <source srcset="images/dev-cycle-7bju6pudf0x55boeibdpriycf4khfetgyp4fppo361c.png.webp"
+                    type="image/webp">
+                <img class="cycle-content-img" src="images/dev-cycle-7bju6pudf0x55boeibdpriycf4khfetgyp4fppo361c.png"
+                    alt="Cycle scheme" loading="lazy" decoding="async">
+            </picture>
+
+            <ol class="cycle-list">
+                <li class="cycle-list-item">
+                    <p class="cycle-list-item--title">Planning</p>
+                    <p class="cycle-list-item--content">At this stage we define application goals, gather
+                        requirements, set up the scope of work, and arrange budget.</p>
+                </li>
+                <li class="cycle-list-item">
+                    <p class="cycle-list-item--title">Design</p>
+                    <p class="cycle-list-item--content">Our designers, UX, developers, marketers, and project
+                        managers do their best to create high-quality software products.</p>
+                </li>
+                <li class="cycle-list-item">
+                    <p class="cycle-list-item--title">Build</p>
+                    <p class="cycle-list-item--content">Our core expertise is to build software from scratch. We
+                        follow our sound and repeatable process to deliver software.</p>
+                </li>
+                <li class="cycle-list-item">
+                    <p class="cycle-list-item--title">Beta</p>
+                    <p class="cycle-list-item--content">Testing all the components, integration, and entire system
+                        testing. Corrections and functions improvement.</p>
+                </li>
+                <li class="cycle-list-item">
+                    <p class="cycle-list-item--title">Launch</p>
+                    <p class="cycle-list-item--content">At the final stage we continue to support, optimize, and
+                        maintain your project (L1/L2 or 24/7)</p>
+                </li>
+            </ol>
+        </div>
+    </div>
+</section>
+
+<script src="js/added-dir-to-slider-dots.js"></script>
+<section class="faq section">
+    <div class="container">
+        <div class="section-main__info">
+            <h2 class="section-main__title">FAQ</h2>
+        </div>
+        <div class="faq-list">
+            <div class="faq-list__item">
+                <div class="faq-question">
+                    <h4>
+                        What is Software Development? </h4>
+                    <span class="faq-question__action"></span>
+                </div>
+                <div class="faq-answer" style="display:none">
+                    <p>
+                        Software development is the conceiving, specifying, designing, programming, documenting,
+                        testing, and bug fixing involved in creating and maintaining applications, frameworks, and
+                        other software components. Software development is a process of writing and maintaining the
+                        source code, however, it incorporates everything from the origination of the ideal
+                        programming to the last appearance of the product, occasionally in an organized process.
+                        Software development may include research, new development, prototyping, modification,
+                        reuse, re-engineering, maintenance, and any other exercises that result in programming
+                        items. </p>
+                    <p>
+                        Software can be produced for a variety of purposes, the three most basic being to address
+                        explicit issues for a particular customer/business (e.g., custom software), to meet an
+                        apparent need for potential clients (e.g., commercial and open-source software), or for
+                        individual use (e.g., a researcher may compose programming to computerize an everyday
+                        undertaking). Embedded software development, which is utilized to control consumer products,
+                        requires the development procedure to be integrated with the development of the controlled
+                        physical item. </p>
+                    <p>
+                        The need for better quality control of the software development process has given rise to
+                        the software engineering discipline, which applies the systematic approach of the
+                        engineering paradigm to the process of software development. </p>
+                    <p>
+                        There are numerous ways to deal with software programming management, including software
+                        development life cycle models, philosophies, or procedures. A cascade model is a customary
+                        form, notable among the latest innovations of Agile software development. </p>
+                </div>
+            </div>
+            <div class="faq-list__item">
+                <div class="faq-question">
+                    <h4>How to Choose a Custom Software Development Company?</h4>
+                    <span class="faq-question__action"></span>
+                </div>
+                <div class="faq-answer" style="display:none">
+                    <p>Below are some tips on how to choose a software development company that will be a perfect
+                        match for you!</p>
+                    <p>These are the key issues to consider before you hire a software development company, based on
+                        our company’s experience.</p>
+                    <ul>
+                        <li>
+                            Define your objectives, resources, and timeframe. </li>
+                        <li>
+                            Get referrals from people. </li>
+                        <li>
+                            Look at the company’s portfolio. </li>
+                        <li>
+                            Consider the size of your software project and be aware that many custom software
+                            development companies primarily work with projects of a particular size (e.g.,
+                            multi-year or multi-enterprise projects).
+                        </li>
+                        <li>
+                            Check out the company’s technology stack. </li>
+                        <li>
+                            Consider these questions: <ul>
+                                <li>
+                                    Do you spot innovative technologies? </li>
+                                <li>
+                                    What do you think of the app designs? Do they provide you with a satisfying user
+                                    experience? </li>
+                                <li>
+                                    Does the company openly share its approach or development processes for a
+                                    particular target audience? </li>
+                                <li>
+                                    Does the company have experience with software that is in any way similar to
+                                    yours? </li>
+                            </ul>
+                        </li>
+                        <li>
+                            Find out if you will be provided continuous support and maintenance for your app. </li>
+                        <li>
+                            Consider the geographical location. </li>
+                        <li>
+                            Emphasize good communication skills. </li>
+                        <li>
+                            Clarify the company’s application ownership policy. </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="faq-list__item">
+                <div class="faq-question">
+                    <h4>
+                        What is Agile Software Development? </h4>
+                    <span class="faq-question__action"></span>
+                </div>
+                <div class="faq-answer" style="display:none">
+                    <p>
+                        Agile software development involves different ways of dealing with software development in
+                        which requirements and solutions evolve through the collaborative efforts of self-organizing
+                        and cross-functional teams and their customer(s) or end user(s). It includes adaptive
+                        planning, cutting-edge development, early delivery, and further maintenance, and it
+                        encourages rapid and flexible reactions to any changes. </p>
+                    <p>
+                        The qualities and standards espoused in this manifesto were derived from and underpin a
+                        broad range of software development frameworks, including Scrum and Kanban. </p>
+                </div>
+            </div>
+            <div class="faq-list__item">
+                <div class="faq-question">
+                    <h4>What is the Software Development Life Cycle (SDLC)?</h4>
+                    <span class="faq-question__action"></span>
+                </div>
+                <div class="faq-answer" style="display:none">
+                    <p>
+                        The software development life cycle (SDLC) defines tasks that are performed at each stage in
+                        the software development process. The SDLC is a structure followed by a development team
+                        within a software company. </p>
+                    <p></p>
+                    <ul>
+                        <li>
+                            <b>Planning:</b> The most important stages of software development—requirement gathering
+                            or requirement analysis—are usually completed by the most skilled and experienced
+                            software engineers in the organization. Once all the requirements have been gathered
+                            from the stakeholders, the next step is to determine the scope of the project and create
+                            a scope document.
+                        </li>
+                        <li>
+                            <b>Implementation:</b> The software engineers start coding according to the client's
+                            requirements.
+                        </li>
+                        <li>
+                            <b>Testing:</b> This step helps reveal defects or bugs in the created software.
+                        </li>
+                        <li>
+                            <b>Documentation:</b> Every project has its own documentation for every step and future
+                            reference. This helps a lot with improvements in the development process. The design
+                            documentation may include the described interface in a written form (API).
+                        </li>
+                        <li>
+                            <b>Deployment:</b> After it is approved, the software is released.
+                        </li>
+                        <li>
+                            <b>Maintaining:</b> Software maintenance is done for future reference. Software upgrades
+                            or changes can take longer than the creation of the initial software variant.
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="faq-list__item">
+                <div class="faq-question">
+                    <h4>How Much Does Custom Software Development Cost?</h4>
+                    <span class="faq-question__action"></span>
+                </div>
+                <div class="faq-answer" style="display:none">
+                    <p>
+                        The price range is very broad and there are numerous aspects that contribute to the costs of
+                        custom software development. </p>
+                    <p>
+                        What Impacts the Cost of Custom Software? </p>
+                    <p>
+                        Consider the following factors when determining the costs of and creating a budget for
+                        custom software development. </p>
+                    <ul>
+                        <li>
+                            <b>Software Size:</b> The more screens or pages an app has, the more work needs to be
+                            done to create an application, and the more expensive it will be to deliver. Small
+                            applications range from 10–25 screens, medium applications range from 25–40, and large
+                            applications include anything with more than 40 screens or pages.
+                        </li>
+                        <li>
+                            <b>Software Complexity:</b> Complicated logic takes more time to code and test. If a
+                            custom software application performs a lot of heavy analysis, scoring, or number
+                            crunching, or if a code has a lot of nuances and permutations, this complexity will
+                            require more focus and could increase the cost.
+                        </li>
+                        <li>
+                            <b>Creative Design:</b> Creative design in custom software development is where a
+                            customer gets to choose different fonts and color palettes, among other things. Much
+                            like when someone is designing and decorating a house, the more extravagant the design
+                            needs and wants, the more expensive the costs tend to be.
+                        </li>
+                        <li>
+                            <b>Integration With Other Systems:</b> Integrating with other systems introduces a lot
+                            of unknown variables into the final cost. Sometimes the integrations are effortless, but
+                            sometimes they are extremely difficult. Typical integrations, such as popular payment
+                            providers or credit check services, are easy to integrate. However, older or
+                            lesser-known systems may pose a challenge and increase the project cost and duration.
+                        </li>
+                        <li>
+                            <b>Migration of Existing Data:</b> If you have data in an existing system that needs to
+                            be moved into a new application, assuming it is more than someone can feasibly type in
+                            by hand, then it will require migration. Migration is nothing more than custom scripts
+                            that take data out of an old system, dust it off, and reshape it so it can fit into the
+                            new system. The steps of this process are fairly straight-forward, but there are a lot
+                            of questions and decisions that need to be made since the two systems will store the
+                            data differently. Migration is run a few times after the software is completed to make
+                            sure everything has been translated correctly and the new system is using the data as
+                            desired. The time spent on figuring out the translation rules, writing the scripts, and
+                            performing tests and adjustments will add to the project duration and costs.
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="faq-list__item">
+                <div class="faq-question">
+                    <h4>How Long Does It Take to Build a Custom Software?</h4>
+                    <span class="faq-question__action"></span>
+                </div>
+                <div class="faq-answer" style="display:none">
+                    <p>On average, software development time can vary from 3 to 9 months, depending on the
+                        complexity of the software and the structure of your project. Each stage of software
+                        development process takes different amounts of time, but the most time-consuming parts are:
+                    </p>
+                    <ul>
+                        <li>
+                            Requirements gathering: 2-4 months </li>
+                        <li>
+                            Design: 6-12 weeks </li>
+                        <li>
+                            Development and prototyping: 2-6 months </li>
+                        <li>
+                            Testing: 3-6 weeks </li>
+                        <li>
+                            Submission to App Store or Google Play: up to 2 weeks
+                        </li>
+                        <li>
+                            Maintenance and updates: any length of time. Maintenance may span for 20 years, whereas
+                            additional development may be 1–2 years
+                        </li>
+                    </ul>
+                    <p>
+                        For instance, a well-designed landing page can be developed in 1-2 months. But if we’re
+                        talking about a full-fledged platform, such as an enterprise social network, then the
+                        timeline will range from 6 to 7 months. </p>
+                    <p>
+                        It’s the same with game development — a visual novel game like Romance Club will take up to
+                        2 months. However, a poker game application takes an average of 6 months. </p>
+                    <p>
+                        Basic mobile app development takes 2-3 months. Moderate — 4-6 months. Complex — 6-9 months
+                        or even more. </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer class="footer">
+    <div class="footer__content">
+        <div class="container">
+            <div class="footer__content-item">
+                <h3 class="footer__title">About us</h3>
+                <p class="footer__text">DCDIUM is a IT Services and Consulting company established in 2023. <br> We
+                    provide comprehensive services including development of mobile applications, web-oriented
+                    applications, business software solutions, as well as software integration and updating,
+                    support, and maintenance of software applications. </p>
+            </div>
+            <div class="footer__content-item">
+                <h3 class="footer__title">Business areas</h3>
+                <ul class="footer__list">
+                    <li class="footer__list-item"><a href="#">Mobile Application Development</a></li>
+                    <li class="footer__list-item"><a href="#">Web Application Development</a></li>
+                    <li class="footer__list-item"><a href="#">Business Application Development</a>
+                    </li>
+                    <li class="footer__list-item"><a href="#">Game Development</a></li>
+                    <li class="footer__list-item"><a href="#">VR/AR Application Development</a>
+                    </li>
+                    <li class="footer__list-item"><a href="#">Blockchain Development</a></li>
+                    <li class="footer__list-item"><a href="#">IoT Software Development</a></li>
+                    <li class="footer__list-item"><a href="#">App Cost Calculator</a></li>
+                </ul>
+            </div>
+            <div class="footer__content-item">
+                <h3 class="footer__title">Contacts</h3>
+                <ul class="footer__list" id="other-country">
+                    <li class="footer__list-item">
+                        <svg class="footer__list-icon">
+                            <use xlink:href="#mobile"></use>
+                        </svg>
+                        IN:&nbsp;
+                        <a href="tel:+91 7020085827" onclick="save_event('phone_footer', this)">+91 7020085827</a>
+                    </li>
+
+                    <li class="footer__list-item">
+                        <svg class="footer__list-icon">
+                            <use xlink:href="#envelop"></use>
+                        </svg>
+                        <a href=" sales@dcdium.com" onclick="save_event('email_footer', this)">sales@dcdium.com</a>
+                    </li>
+                    <li class="footer__list-item">
+                        <svg class="footer__list-icon">
+                            <use xlink:href="#marker"></use>
+                        </svg>
+                        <a href="https://www.google.com/maps/place/7+Akaki+Khorava+St,+T'bilisi,+%D0%93%D1%80%D1%83%D0%B7%D0%B8%D1%8F/@41.7065867,44.7803729,17z/data=!3m1!4b1!4m5!3m4!1s0x40440cd1b3f602ef:0x243cf13337b8cb72!8m2!3d41.7065867!4d44.7825616"
+                            target="_blank">
+                            DP Road, Hadapsar
+                            <br>Pune 41102
+                            India
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer__content-item">
+                <h3 class="footer__title">Follow us</h3>
+                <ul class="footer__list">
+                    <li class="footer__list-item">
+                        <svg class="footer__list-icon">
+                            <use xlink:href="#facebook"></use>
+                        </svg>
+                        <a href="https://www.facebook.com/VironIT2004/" rel="nofollow"
+                            onclick="yaCounter21163447.reachGoal('smm_fb');">Facebook</a>
+                    </li>
+                    <li class="footer__list-item">
+                        <svg class="footer__list-icon">
+                            <use xlink:href="#twitter"></use>
+                        </svg>
+                        <a href="https://twitter.com/vironit" rel="nofollow"
+                            onclick="yaCounter21163447.reachGoal('smm_twit');">Twitter</a>
+                    </li>
+                    <li class="footer__list-item">
+                        <svg class="footer__list-icon">
+                            <use xlink:href="#linkedin"></use>
+                        </svg>
+                        <a href="https://www.linkedin.com/company/vironit" rel="nofollow"
+                            onclick="yaCounter21163447.reachGoal('smm_in');">Linkedin</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer__copy">
+        <div class="container">
+            <p class="footer__copy-text">
+                Copyright © 2023 - 2023 DCDIUM Technology<br>IT Service and Consulting company
+            </p>
+        </div>
+    </div>
+</footer>
+<!-- <script>
+    // Get all the FAQ question action elements
+    const faqQuestionActions = document.querySelectorAll('.faq-question__action');
+
+    // Add a click event listener to each question action
+    faqQuestionActions.forEach(action => {
+        action.addEventListener('click', () => {
+            // Find the parent question element
+            const question = action.closest('.faq-question');
+
+            // Find the answer element associated with the question
+            const answer = question.nextElementElement;
+
+            // Toggle the display of the answer paragraph
+            answer.style.display = answer.style.display === 'none' ? 'block' : 'none';
+        });
+    });
+</script> -->
+</body>
+</html>
